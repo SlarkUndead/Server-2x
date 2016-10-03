@@ -1,0 +1,24 @@
+Dump: threadid=-147424960, Time: 2016-4-3 11:53:30
+INT exception:
+./Login() [0x8069149]
+./Login() [0x804c0dc]
+[0xf771dc60]
+[0xf771dc90]
+/lib/i386-linux-gnu/libc.so.6(nanosleep+0x46) [0xf742e826]
+/lib/i386-linux-gnu/libc.so.6(usleep+0x3d) [0xf745d88d]
+./Login() [0x804b230]
+./Login() [0x804c397]
+/lib/i386-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0xf7392a83]
+./Login(__gxx_personality_v0+0x81) [0x804a299]
+Dump: threadid=-146654912, Time: 2016-4-3 11:53:46
+INT exception:
+./Login() [0x8069149]
+./Login() [0x804c0dc]
+[0xf77d9c60]
+[0xf77d9c90]
+/lib/i386-linux-gnu/libc.so.6(nanosleep+0x46) [0xf74ea826]
+/lib/i386-linux-gnu/libc.so.6(usleep+0x3d) [0xf751988d]
+./Login() [0x804b230]
+./Login() [0x804c397]
+/lib/i386-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0xf744ea83]
+./Login(__gxx_personality_v0+0x81) [0x804a299]

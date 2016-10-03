@@ -1,0 +1,5 @@
+WLRetCharLoginHandler:acc=dark.hades,charguid=3C33609F ,DbCrc=-1663255785,BinCrc=-1663255785 load fulluser from db  (-322995392)(T0=2016-4-3_11:39:19 T1=414.0810)
+ERROR:acc=darkhades,charguid=3C3360A1 ,DbCrc=1813317165,BinCrc=1764419411 load fulluser from db  (-322995392)(T0=2016-4-3_11:42:3 T1=578.5780)
+WLRetCharLoginHandler:acc=dark.hades,charguid=3C33609F ,DbCrc=-1663255785,BinCrc=-1663255785 load fulluser from db  (-322995392)(T0=2016-4-3_11:45:48 T1=803.2970)
+WLRetCharLoginHandler:acc=1,charguid=3C3360A2 ,DbCrc=178912728,BinCrc=178912728 load fulluser from db  (-322995392)(T0=2016-4-3_11:50:46 T1=1101.6940)
+WLRetCharLoginHandler:acc=1,charguid=3C3360A2 ,DbCrc=178912728,BinCrc=178912728 load fulluser from db  (-322995392)(T0=2016-4-3_11:52:53 T1=1228.9710)

@@ -1,0 +1,25 @@
+INT	INT	INT	STRING
+index	isShow	mode	info$1$
+#<0>index	Ë÷Òý		
+#<1>isShow	ÊÇ·ñÏÔÊ¾		
+#<2>mode	·¢²¼Ä£Ê½£º0£¬ÆÕÍ¨Í¨¸æ£»1£¬ÐÇÆÚÍ¨¸æ¡¶NotifyWeek¡·£»2£¬ÈÕÆÚÍ¨¸æ¡¶NotifyDate¡·£»3£¬ÉúÈÕÍ¨¸æ£»4£¬µÇÂ¼Í¨¸æ£¨¸ñÊ½¹Ì¶¨£©		
+#<3>info	ÏûÏ¢ÄÚÈÝ		
+#			
+0	1	0	Chào m×ng các hÕ ðªn v¾i trò ch½i Thiên Long Bát Bµ.
+1	1	4	#WTh¶i gian mà l¥n trß¾c các hÕ ðång nh§p là #cff0000%d/%d/%d lúc %d gi¶#W. Ð¸a chï IP ðång nh§p là #cff0000%d.%d.%d.%d#W. 
+#2	0	0	Thông báo tÕm th¶i
+#3	0	1	
+#4	1	2	
+#5	1	3	Hôm nay là sinh nh§t cüa các hÕ, chúc các hÕ sinh nh§t vui vë!
+#6	1	0	#GHoan nghênh các hÕ ðªn v¾i Thiên Long Bát Bµ! Nhæng thông tin m¾i gì s¨ chÑa ðñng trong phiên bän3.15, xin ðång nh§p trang chü Thiên Long Bát Bµ#Y http://thienlongthienha.info/ Chúc các hÕ ch½i game vui vë!
+#7	1	0	»¶Ó­ÄãÀ´µ½¡¶ÌìÁú°Ë²¿¡·£¬È«ÐÂÖ÷³ÇÂ¥À¼¹Å¶¼¡¢È«ÐÂÃ°ÏÕÈÎÎñ¡¢°ï»áÍ¬ÃËµÈµÈ¾¡ÔÚ¡®É³Ä®ÃÔ³Ç¡¯×ÊÁÏÆ¬£¬´ýÄã·¢¾ò£¡
+#8	1	0	¹Ù·½²»»áÖ÷¶¯ÒªÇóÍæ¼ÒÌá¹©ÃÜÂëµÈ×ÊÁÏ£¬Çë¸÷Íæ¼ÒÍ×ÉÆ±£¹ÜÕÊºÅ£¬ÇÐÎðÒÅÍü¼°Í¸Â¶¸øËûÈË£¡
+#9	1	0	µç»°ÃÜ±£°ó¶¨¹¦ÄÜÊÇµ±Ç°×î°²È«£¬×î±ã½ÝµÄÕËºÅ±£»¤´ëÊ©£¬²¢ÇÒÍêÈ«Ãâ·Ñ¡£µç»°ÃÜ±£°ó¶¨ÓëÃÜ±£¿¨°ó¶¨²»ÄÜÍ¬Ê±Ê¹ÓÃ£¬µ«ÊÇ¿ÉÒÔºÍµçÄÔ°ó¶¨¡¢ÊÖ»ú°ó¶¨¡¢IP°ó¶¨µÈ°ó¶¨·½Ê½¹²Í¬Ê¹ÓÃ¡£ÎÒÃÇÇ¿ÁÒ½¨ÒéÄúµÇÂ¼sde.game.sohu.com¿ªÍ¨µç»°ÃÜ±£°ó¶¨·þÎñ¡£
+#10	1	0	ÔÚ3ÔÂ31ÈÕ¡ª¡ª4ÔÂ2ÈÕÓÞÈË´ó±äÉí»î¶¯ÆÚ¼äÄÚ£¬10¼¶ÒÔÉÏÍæ¼Ò¿ÉÒÔÇ°Íù´óÀí¹¨²ÊÔÆ£¨170£¬122£©´¦ÁìÈ¡±äÉíµÀ¾ßÓÞÈË±¦ÖéÒ»¸ö£¬Ã¿ÈËÃ¿ÌìÏÞÁìÒ»´Î£¬ÓÞÈË±¦ÖéÖ»¿ÉÒÔÔÚ³ÇÊÐÄÚ¶ÔÆäËûÈËÊ¹ÓÃ£¬Ïë¿´¿´ÄÜ½«ÄãµÄÅóÓÑ»òÕß³ðÈË±ä³ÉÊ²Ã´Âð£¿¿ìµãÀ´²Î¼ÓÓÞÈË´ó±äÉí»î¶¯°É¡£
+#11	1	0	Ò»ÄêÒ»¶ÈµÄ½ÌÊ¦½Ú¼´½«À´ÁÙÀ²£¡ËùÓÐ30¼¶ÒÔÉÏµÄÓ¢ÐÛ¶¼¿ÉÒÔÈ¥´óÀí£¨140£¬132£©ÄôÕþ´¦ÁìÈ¡Ê¦Í½´óÀñ°ü¡£Ê¹ÓÃ´óÀñ°ü»¹»áÓÐÒâÍâÊÕ»ñÅ¶£¡
+#12	1	0	ÊÕ¼¯Ç©Ãû»î¶¯ÕýÔÚ½øÐÐÖÐ£¬ËùÓÐ10¼¶ÒÔÉÏÍæ¼Ò¶¼¿ÉÒÔÇ°Íù´óÀí£¨170£¬122£©¹¨²ÊÔÆ´¦±¨Ãû²Î¼Ó£¬ÄúÖ»ÒªÄÜÊÕ¼¯µ½15¸öºÃÓÑµÄÇ©Ãû£¬¾Í¿ÉÒÔÖ±½ÓÁìÈ¡µ½·áºñµÄ¾­Ñé½±ÀøºÍÒ»¸öºÃÓÑ´óÀñ°ü¡£Ê¹ÓÃ´óÀñ°üÓÐ¿ÉÄÜ»ñµÃ×îÐÂµÄÊ±×°Å¶£¡
+#13	1	0	´òÌ½°ïÅÉÏûÏ¢»î¶¯ÒÑ¾­¿ªÊ¼ÁË£¡Ö»Òª´ïµ½ÁË30¼¶¾Í¿ÉÒÔÇ°Íù°ïÅÉ³ÇÊÐÄÚµÄÎäÊÂ¹ÙÔ±Îä´óÍþ£¨133£¬50£©´¦ÁìÈ¡ÈÎÎñ¡£ºÍÍ¬°ïÅÉ³ÉÔ±×é¶ÓÁ½ÈËÒÔÉÏ¾Í¿ÉÒÔÍê³ÉÈÎÎñÁË¡£ÓÐ·á¸»µÄ¾­Ñé½±ÀøÔÚµÈ×ÅÄãàÞ£¡
+#14	1	2	
+#15	1	0	Ç×°®µÄÍæ¼Ò£¬Äú±³°üÖÐ½ð±ÒºÍ½»×ÓµÄÏÔÊ¾Î»ÖÃÒÑ¾­»¥»»¡£½»×ÓÊÇ°ó¶¨µÄ½ð±Ò£¬ËùÓÐÄÜÊ¹ÓÃ½»×ÓµÄ³¡ºÏ£¬ÓÅÏÈ¿Û³ý½»×Ó£¬½»×ÓÈ«²¿¿Û³ýºóÈÔÈ»²»×ãµÄ²¿·ÖÔÙ¿Û³ý½ð±Ò¡£¹ØÓÚ½»×ÓµÄÏêÏ¸ËµÃ÷Äú¿ÉÒÔÕÒÂåÑôÑîÎõÆ½£¨80£¬152£©ÁË½â¡£
+#16	1	0	°Ù±äÁ³Æ×£¬±ä±ä±ä£¡ËÕÖÝ£¨168£¬168£©ÎÄÑå²©ÕýÔÚ°ïÖúÏ·Ôº±àÅÅÐÂµÄÏ·¾ç¡£¸÷¸ö½ÇÉ«µÄÁ³Æ×ÕýÔÚ¶¨ÐÍ£¬Ï£Íû½è´ó¼ÒµÄ¡®Ãæ×Ó¡¯Ò»ÓÃ¡£µ±È»Ò²ÉÙ²»ÁË½±ÀøÅ¶£¡Ã¿ÈËÃ¿Ìì¶¼¿ÉÒÔ²ÎÓë1´Î¡£
+#17	1	0	»¶Ó­ÄúÀ´µ½ÌìÁú°Ë²¿µÄÊÀ½ç£¡´ÓÏÖÔÚ¿ªÊ¼£¬·²µÈ¼¶¡Ý30¼¶µÄÍæ¼Ò¶¼¿ÉÒÔÇ°Íù´óÀí£¨174£¬145£©Ëï°ËÒ¯´¦ÁìÈ¡ÇØ»ÊÕ½ÉñBUFF£¬¸ÃBUFF½«Ê¹ÄúµÄÄÚÍâ¹¥ÔöÇ¿£¬»¹µÈÊ²Ã´£¬¿ìÈ¥ÁìÈ¡°É£¡

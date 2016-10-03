@@ -1,0 +1,20 @@
+
+[./Script/LuaFnTbl_Shop.h][1623][int LuaFnTbl::LuaFnDispatchYuanbaoShopItem(lua_State*)][0] t=(2016-4-1 8:16:52)
+
+[./Skills/Impact_Core.cpp][211][const Combat_Module::Impact_Module::ImpactData_T* Combat_Module::Impact_Module::Impact_GetDataBlock(ID_t)][FALSE]
+[[Impact_GetDataBlock]: Can't find specific Data for impact(5984)] t=(2016-4-1 8:18:31)
+Stack:[./Skills/Impact_Core.cpp][215][const Combat_Module::Impact_Module::ImpactData_T* Combat_Module::Impact_Module::Impact_GetDataBlock(ID_t)][FALSE] t=(2016-4-1 8:18:31)
+Stack:[./Skills/Impact_Core.cpp][52][BOOL Combat_Module::Impact_Module::ImpactCore_T::InitImpactFromData(ID_t, OWN_IMPACT&, INT) const][FALSE] t=(2016-4-1 8:18:31)
+Stack:[./Skills/Impact_Core.cpp][92][BOOL Combat_Module::Impact_Module::ImpactCore_T::SendImpactToUnit(Obj_Character&, ID_t, ObjID_t, INT, Time_t, BOOL, INT) const][FALSE] t=(2016-4-1 8:18:31)
+Stack:[./Packets/CGUseEquipHandler.cpp][545][static UINT Packets::CGUseEquipHandler::Execute(Packets::CGUseEquip*, Player*)][FALSE] t=(2016-4-1 8:18:31)
+Stack:[../../Common/Packets/CGUseEquip.cpp][31][virtual UINT Packets::CGUseEquip::Execute(Player*)][FALSE] t=(2016-4-1 8:18:31)
+
+[./Script/LuaFnTbl_Shop.h][1623][int LuaFnTbl::LuaFnDispatchYuanbaoShopItem(lua_State*)][0] t=(2016-4-1 8:26:29)
+
+[./Skills/Impact_Core.cpp][211][const Combat_Module::Impact_Module::ImpactData_T* Combat_Module::Impact_Module::Impact_GetDataBlock(ID_t)][FALSE]
+[[Impact_GetDataBlock]: Can't find specific Data for impact(5984)] t=(2016-4-1 8:26:59)
+Stack:[./Skills/Impact_Core.cpp][215][const Combat_Module::Impact_Module::ImpactData_T* Combat_Module::Impact_Module::Impact_GetDataBlock(ID_t)][FALSE] t=(2016-4-1 8:26:59)
+Stack:[./Skills/Impact_Core.cpp][52][BOOL Combat_Module::Impact_Module::ImpactCore_T::InitImpactFromData(ID_t, OWN_IMPACT&, INT) const][FALSE] t=(2016-4-1 8:26:59)
+Stack:[./Skills/Impact_Core.cpp][92][BOOL Combat_Module::Impact_Module::ImpactCore_T::SendImpactToUnit(Obj_Character&, ID_t, ObjID_t, INT, Time_t, BOOL, INT) const][FALSE] t=(2016-4-1 8:26:59)
+Stack:[./Packets/CGUseEquipHandler.cpp][545][static UINT Packets::CGUseEquipHandler::Execute(Packets::CGUseEquip*, Player*)][FALSE] t=(2016-4-1 8:26:59)
+Stack:[../../Common/Packets/CGUseEquip.cpp][31][virtual UINT Packets::CGUseEquip::Execute(Player*)][FALSE] t=(2016-4-1 8:26:59)

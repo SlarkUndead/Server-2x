@@ -1,0 +1,7 @@
+Stack:[./Main/DaemonThread.cpp][283][BOOL DaemonThread::Loop()][FALSE] t=(2016-4-3 11:54:29)
+Stack:[./Player/IncomingPlayerManager.cpp][101][BOOL IncomingPlayerManager::Init()][FALSE] t=(2016-4-3 11:55:39)
+Stack:[./Main/ClientManager.cpp][50][BOOL ClientManager::Init()][FALSE] t=(2016-4-3 11:55:39)
+Stack:[./Main/Server.cpp][899][BOOL Server::InitStaticServer()][FALSE] t=(2016-4-3 11:55:39)
+Stack:[./Main/Server.cpp][284][BOOL Server::InitServer()][FALSE] t=(2016-4-3 11:55:39)
+Stack:[./Main/Server.cpp][222][INT main(INT, CHAR**)][FALSE] t=(2016-4-3 11:55:39)
+Stack:[./Main/Server.cpp][445][void Server::WaitForAllThreadQuit()][FALSE] t=(2016-4-3 12:0:8)

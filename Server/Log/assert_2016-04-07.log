@@ -1,0 +1,4 @@
+Stack:[./Main/ServerManager.cpp][93][BOOL ServerManager::Init()][FALSE] t=(2016-4-7 0:14:17)
+Stack:[./Main/World.cpp][510][BOOL World::InitStaticManager()][FALSE] t=(2016-4-7 0:14:17)
+Stack:[./Main/World.cpp][182][BOOL World::Init()][FALSE] t=(2016-4-7 0:14:17)
+Stack:[./Main/World.cpp][120][int main(int, char**)][FALSE] t=(2016-4-7 0:14:17)

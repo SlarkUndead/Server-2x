@@ -1,0 +1,123 @@
+[DE_LOG_START]
+[DE_Status](3c3360a2): {FreeTime:0, MoneyTime:0, Count:0, Lock:Off}
+
+[Obj_Human::ResetWeeklyDETime]: Reset weekly double-exp time for User:3c3360a2
+[DE_Status](3c3360a2): {FreeTime:0, MoneyTime:0, Count:45, Lock:Off}
+
+[DE_LOG_END]
+ (-578815166)(T0=2016-4-1_5:45:55 T1=165.1650)
+[DE_LOG_START]
+[Obj_Human::OnHumanLogin]
+[DE_Status](3c3360a2): {FreeTime:0, MoneyTime:0, Count:45, Lock:Off}
+
+[DE_LOG_END]
+ (-578815166)(T0=2016-4-1_5:45:55 T1=165.1750)
+[DE_LOG_START]
+[Obj_Human::OnHumanLogin]
+[DE_Status](3c3360a2): {FreeTime:0, MoneyTime:0, Count:45, Lock:Off}
+
+[DE_LOG_END]
+ (-578815166)(T0=2016-4-1_7:33:43 T1=6632.5150)
+[DE_LOG_START]
+[DE_Status](3c3360a3): {FreeTime:0, MoneyTime:0, Count:0, Lock:Off}
+
+[Obj_Human::ResetWeeklyDETime]: Reset weekly double-exp time for User:3c3360a3
+[DE_Status](3c3360a3): {FreeTime:0, MoneyTime:0, Count:45, Lock:Off}
+
+[DE_LOG_END]
+ (-578815166)(T0=2016-4-1_7:34:31 T1=6681.1720)
+[DE_LOG_START]
+[Obj_Human::OnHumanLogin]
+[DE_Status](3c3360a3): {FreeTime:0, MoneyTime:0, Count:45, Lock:Off}
+
+[DE_LOG_END]
+ (-578815166)(T0=2016-4-1_7:34:31 T1=6681.1780)
+[DE_LOG_START]
+[Obj_Human::OnHumanLogin]
+[DE_Status](3c3360a3): {FreeTime:0, MoneyTime:0, Count:45, Lock:Off}
+
+[DE_LOG_END]
+ (-578815166)(T0=2016-4-1_7:42:23 T1=7152.6530)
+[DE_LOG_START]
+[Obj_Human::OnHumanLogin]
+[DE_Status](3c3360a3): {FreeTime:0, MoneyTime:0, Count:45, Lock:Off}
+
+[DE_LOG_END]
+ (-578815166)(T0=2016-4-1_7:56:45 T1=8014.2970)
+[DE_LOG_START]
+[Obj_Human::OnHumanLogin]
+[DE_Status](3c3360a2): {FreeTime:0, MoneyTime:0, Count:45, Lock:Off}
+
+[DE_LOG_END]
+ (-578815166)(T0=2016-4-1_8:0:3 T1=8212.4330)
+[DE_LOG_START]
+[Obj_Human::OnHumanLogin]
+[DE_Status](3c3360a3): {FreeTime:0, MoneyTime:0, Count:45, Lock:Off}
+
+[DE_LOG_END]
+ (-578815166)(T0=2016-4-1_8:0:10 T1=8219.6650)
+[DE_LOG_START]
+[Obj_Human::OnHumanLogin]
+[DE_Status](3c3360a2): {FreeTime:0, MoneyTime:0, Count:45, Lock:Off}
+
+[DE_LOG_END]
+ (-578815166)(T0=2016-4-1_8:11:11 T1=8880.3220)
+[DE_LOG_START]
+[Obj_Human::OnHumanLogin]
+[DE_Status](3c3360a2): {FreeTime:0, MoneyTime:0, Count:45, Lock:Off}
+
+[DE_LOG_END]
+ (-578815166)(T0=2016-4-1_8:19:15 T1=9364.7230)
+EOL:3C3360A2,10,0,500000,2,215.32,153.06,x332001_OnDeplete (-578815166)(T0=2016-4-1_8:22:17 T1=9547.0140)
+EOL:3C3360A2,10,500000,500000,194,40.67,32.44,x332001_OnDeplete (-960541694)(T0=2016-4-1_8:23:14 T1=9604.1000)
+EOL:3C3360A2,10,1000000,500000,194,40.67,32.44,x332001_OnDeplete (-960541694)(T0=2016-4-1_8:23:27 T1=9616.2420)
+EOL:3C3360A2,10,1500000,500000,194,40.67,32.44,x332001_OnDeplete (-960541694)(T0=2016-4-1_8:24:8 T1=9657.2490)
+[DE_LOG_START]
+[Obj_Human::OnHumanLogin]
+[DE_Status](3c3360a2): {FreeTime:0, MoneyTime:0, Count:45, Lock:Off}
+
+[DE_LOG_END]
+ (-960541694)(T0=2016-4-1_8:38:16 T1=10505.4630)
+[DE_LOG_START]
+[Obj_Human::OnHumanLogin]
+[DE_Status](3c3360a2): {FreeTime:0, MoneyTime:0, Count:45, Lock:Off}
+
+[DE_LOG_END]
+ (-960541694)(T0=2016-4-1_8:51:11 T1=11280.6960)
+[DE_LOG_START]
+[Obj_Human::OnHumanLogin]
+[DE_Status](3c3360a2): {FreeTime:0, MoneyTime:0, Count:45, Lock:Off}
+
+[DE_LOG_END]
+ (-960541694)(T0=2016-4-1_8:54:59 T1=11508.7530)
+[DE_LOG_START]
+[Obj_Human::OnHumanLogin]
+[DE_Status](3c3360a2): {FreeTime:0, MoneyTime:0, Count:45, Lock:Off}
+
+[DE_LOG_END]
+ (-960541694)(T0=2016-4-1_8:58:44 T1=11733.3440)
+[DE_LOG_START]
+[Obj_Human::OnHumanLogin]
+[DE_Status](3c3360a2): {FreeTime:0, MoneyTime:0, Count:45, Lock:Off}
+
+[DE_LOG_END]
+ (-960541694)(T0=2016-4-1_9:1:53 T1=11922.6950)
+[DE_LOG_START]
+[Obj_Human::OnHumanLogin]
+[DE_Status](3c3360a2): {FreeTime:0, MoneyTime:0, Count:45, Lock:Off}
+
+[DE_LOG_END]
+ (-960541694)(T0=2016-4-1_9:5:39 T1=12148.2800)
+EOL:3C3360A2,20,2000000,363875,194,41.39,31.99, (-960541694)(T0=2016-4-1_9:9:54 T1=12403.5490)
+[DE_LOG_START]
+[Obj_Human::OnHumanLogin]
+[DE_Status](3c3360a2): {FreeTime:0, MoneyTime:0, Count:45, Lock:Off}
+
+[DE_LOG_END]
+ (-960541887)(T0=2016-4-1_9:11:20 T1=12489.3840)
+[DE_LOG_START]
+[Obj_Human::OnHumanLogin]
+[DE_Status](3c3360a2): {FreeTime:0, MoneyTime:0, Count:45, Lock:Off}
+
+[DE_LOG_END]
+ (-960541887)(T0=2016-4-1_9:13:45 T1=12634.3870)

@@ -1,0 +1,312 @@
+INT	STRING
+ID	×Ö·û´®$1$
+0	Các hÕ ğã b¸ %s giªt chªt
+1	Các hÕ giªt chªt %s, vì h¡n giªt ngß¶i quá nhi«u, chu¯c l¤y sñ tr×ng phÕt. Trang b¸ trên ngß¶i h¡n b¸ r½i · g¥n ğây, chú ı tìm kiªm!
+2	@*;SrvMsg;GLD:Thß½ng nhân b±n bang #{_INFOUSR%s} trong lúc làm nhi®m vø Thß½ng nhân, không may b¸#{_INFOUSR%s} ngß¶i cüa bang hµi #G[%s]#Wcß¾p giªt, s¯ ti«n#{_MONEY%d} cüa ngân phiªu và s¯ thß½ng ph¦m ğ«u b¸ m¤t, th§t khiªn ngß¶i ta khó ch¸u.
+3	@*;SrvMsg;GLD:Thß½ng nhân cüa b±n bang #{_INFOUSR%s} trong lúc tiªn thành nhi®m vø thß½ng nhân, không may b¸ #{_INFOUSR%s} giªt. Giá tr¸ ngân phiªu và thß½ng ph¦m cüa #{_MONEY%d} ğã m¤t, 
+4	Không rõ t× ğâu công kích, các hÕ hi®n trong trÕng thái phòng v®!
+5	V§t ph¦m ğã b¸ khóa, không th¬ giám ğ¸nh
+6	Quay lÕi bäng mua s¡m
+7	Tay näi
+8	Ğang m®t, không th¬ nh§n nhi®m vø
+9	Các hÕ ğã gØi l¶i quyªt ğ¤u, ch¶ ğ¯i phß½ng h°i âm
+10	#RKhi giá tr¸ sát khí l¾n h½n ho£c b¢ng 10 s¨ b¸ bÑc vào ĞÕi Lao
+11	Nh¸
+12	Tam
+13	B¯n
+14	Nåm
+15	Sáu
+16	Chi 
+17	Công nång cüa nhân v§t ğã h°i phøc, ğ« ngh¸ tñ giác tuân thü quy t¡c trò ch½i, chúc các hÕ vui vë.
+18	#YR¤t xin l²i phäi thông báo v¾i các hÕ! B·i vì %s cüa các hÕ là #B[%s]#Y ğã quá th¶i hÕn nên b¸ h® th¯ng xóa bö.
+19	Trong bao ğÕo cø
+20	Trong bao tài li®u
+21	Trên ngß¶i
+22	Trong ngân hàng
+23	Máy chü không phän h°i thông tin
+24	Máy chü ğã ğ¥y
+25	Các hÕ ğang chuy¬n ğªn 
+26	Các hÕ c¥n phäi di chuy¬n m¾i chuy¬n ğßşc
+27	Các hÕ ğang sØ døng chß½ng trình ngoài, không th¬ v§n chuy¬n toàn cänh!
+28	Các hÕ b¸ hÕng chª tñ do, không th¬ v§n chuy¬n, %d phút sau h°i phøc!
+29	Không th¬ sØ døng møc tiêu tình hu¯ng
+30	Không th¬ sØ døng møc tiêu thành th¸ 
+31	Lßşng ngß¶i · máy chü ğã ğ¥y
+32	SÑc ch¸u ğñng cüa máy chü quá cao
+33	Møc tiêu toàn cänh không th¬ hß·ng Ñng
+34	Dung nÕp cüa Ngân phiªu này ğã ğÕt ğªn mÑc thßşng hÕn #{_MONEY%d}. 
+35	Ğ° ğ® %s cüa các hÕ ğã c¯ng hiªn cho các hÕ %d ği¬m kinh nghi®m, m¶i nh§n n½i ngß¶i gi¾i thi®u bái sß. 
+36	Chúc m×ng các hÕ, hşp thành thành công, ngµ tính Trân thú cüa các hÕ +1
+37	#W#{_INFOUSR%s}#c00FFFFträi qua nhæng c¯ g¡ng, ğã nâng cao ngµ tính cüa#{_INFOMSG%s}lên#Y%d#c00FFFF, làm cho tß ch¤t cüa trân thú ğßşc nâng cao.
+38	Hşp thành th¤t bÕi, ngµ tính cüa Trân thú là %d
+39	ChÑc nång trò chuy®n cüa các hÕ ğã h°i phøc, xin tñ giác tuân thü theo quy t¡c cüa trò ch½i, chúc các hÕ vui vë!
+40	Các hÕ c¥n · trong ngøc %d phút, và kh¤u tr× ği t¤t cä kinh nghi®m thi®n th¶i nh§n ğßşc!
+41	Các hÕ c¥n · trong ngøc %d phút, 
+42	Các hÕ ğã b¸ nghi nh¾ tr÷ng án, trß¾c 3 l¥n các hÕ có th¬ thông qua lao ğ¥u tñ do ra ngoài!
+43	#{_INFOUSR%s}#Y ğang thåm dò thông tin v« trang b¸ và Trân thú cüa các hÕ.
+44	Xin gia tång tr× ğ® th¤t bän tâm pháp ra t¤t cä tâm pháp ğÕt ğªn c¤p 80. 
+45	#cffffcc Chúc m×ng các hÕ, ğ® tØ cüa các hÕ#W%s#cffffcc ğã thång lên#G%d c¤p#cffffcc. Nhßng do ğµ häo hæu giæa 2 ngß¶i là#G0#cffffcc, không th¬ nh§n ph¥n thß·ng khi ğ° ğ® thång c¤p, xin hãy quan tâm ğ° ğ® cüa các hÕ nhi«u h½n.
+46	Ğã gia nh§p bang phái c¤p %d
+47	Bang phái gia nh§p là bang phái c¤p %d, tr× mµt nØa ği¬m thß·ng kinh nghi®m. 
+48	Không gia nh§p bang phái, tr× mµt nØa ği¬m thß·ng kinh nghi®m.
+49	T¯t 
+50	Thß¶ng
+51	T®
+52	#cffffcc Chúc m×ng các hÕ, ğ® tØ cüa các hÕ#W%s#cffffcc ğã thång lên#Y%d c¤p#cffffcc. %s#cffffccVà nh§n xét các hÕ là#Y%s#cffffcc, nên các hÕ ngoài vi®c nh§n ğßşc ph¥n thß·ng #Y%d%%#cffffcckinh nghi®m, còn thu ğßşc thêm#Y%d#cffffcc kinh nghi®m, xin hãy ğªn ĞÕi Lı ngß¶i bái sß#RNhiªp Chính#cffffcc sØ døng ği¬m thi®n ác tiªn hành ğ±i ği¬m.
+53	#cffffcc Phøng thiên th×a v§n, hoàng ğª chiªu viªt: #W#{_INFOUSR%s}#cffffcc ğã dÕy d² ğ® tØ #{_INFOUSR%s}#cffffcc thång lên#Y%d c¤p#cffffcc, tri«u ğình ğ£c bi®t thß·ng cho #Y%d#cffffcc kinh nghi®m, khâm thØ.
+54	#cffffcc Giang h° ğ°n r¢ng, #W#{_INFOUSR%s}#cffffcc do biªt cách dÕy d², ğ° ğ® #{_INFOUSR%s}#cffffcc ğã dß½ng danh l§p vÕn thång lên #Y%d c¤p#cffffcc, qu¥n hùng trên giang h° liên danh cùng t£ng#Y%d kinh nghi®m.
+55	#{_INFOUSR%s}#cffffcc vì dÕy d² ğ® tØ #{_INFOUSR%s}#cffffcc thång lên #Y%d c¤p#cffffcc không ngÕi gian kh±, qu¥n hùng trên giang h° liên danh cùng t£ng thêm #Y%d#cffffcc kinh nghi®m.
+56	#cffffcc Phøng thiên th×a v§n, hoàng ğª chiªu viªt: #W#{_INFOUSR%s}#cffffcc ğã dÕy d² ğ® tØ#{_INFOUSR%s}#cffffcc thång lên #Y%d c¤p#cffffcc, và dçn d¡t gia nh§p bang hµi, tri«u ğình ğ£c bi®t thß·ng cho#Y%d#cffffcc kinh nghi®m, khâm thØ.
+57	#cffffcc Giang h° ğ°n r¢ng, #W#{_INFOUSR%s}#cffffcc do biªt cách dÕy d², ğ° ğ® #{_INFOUSR%s}#cffffcc ğã dß½ng danh thång ğªn #Y%d c¤p#cffffcc, và dçn d¡t gia nh§p bang hµi, qu¥n hùng trên giang h° liên danh cùng t£ng #Y%d kinh nghi®m.
+58	#W#{_INFOUSR%s}#cffffcc vì dÕy d² ğ® tØ #{_INFOUSR%s}#cffffcc thång lên #Y%d#cffffcc c¤p ğ°ng th¶i dçn d¡t gia nh§p bang hµi, d¯c hªt tâm huyªt chÆng quän gió sß½ng, khiªn qu¥n hùng giang h° kính phøc khôn xiªt, nên ğã t£ng cho #Y%d#cffffcckinh nghi®m.
+59	#cffffccTrong quan h® sß ğ° ğµ häo hæu l¾n h½n 1000, thu ğßşc toàn bµ ph¥n thß·ng kinh nghi®m.
+60	#cffffccDo trong quan h® sß ğ° ğµ häo hæu không ğü 1000, nên ph¥n thß·ng kinh nghi®m là#Y%.2f%%. 
+61	Trân thú cüa các hÕ ğã cao h½n ğÆng c¤p các hÕ %d c¤p nên không ğßşc nh§n thêm kinh nghi®m. 
+62	Quäi c½ chung kªt giä
+63	Xin th¤t l­, hi®n chï có quan h® bÕn hæu m¾i có th¬ ği ğªn kªt bái phu thê.
+64	Xin th¤t l­, chï có quan h® phu thê m¾i ğßşc ly hôn.
+65	Xin th¤t l­, hi®n chï có quan h® bÕn hæu m¾i ğßşc bái sß.
+66	Xin th¤t l­, hi®n chï nh§n bÕn hæu làm ğ° ğ®.
+67	Xin th¤t l­, chï thñc hi®n thao tác này v¾i sß phø.
+68	Xin th¤t l­, chï thñc hi®n thao tác này v¾i ğ° ğ®.
+69	Qu¥y tÕp hóa
+70	Ti«n v¯n cüa ti®m th¤p h½n v¯n g¯c 50%, hãy nÕp thêm, nªu không ti®m buµc phäi ğóng cØa.
+71	Th§t ğáng tiªc, ti®m ğã b¸ ğóng, hàng th×a b¸ chü nş xiªt mang ği.
+72	"#{_TIME%d}: #Ybán #W[#R#{_ITEM%d}#W]X%d, ğÕt ğßşc #{_MONEY%d}"
+73	"#{_TIME%d}: #Ybán #W[#R%s#W]X%d, ğÕt ğßşc #{_MONEY%d}"
+74	#{_TIME%d}: %s#Y nh§p hàng #W[#R#{_ITEM%d}#W]X%d ki®n.
+75	#{_TIME%d}: %s#Y l¤y v« #W[#R#{_ITEM%d}#W]X%d ki®n.
+76	#{_TIME%d}: %s#Y nh§p hàng #W[#R%s#W]X%d ki®n.
+77	#{_TIME%d}: %s#Y l¤y v« #W[#R%s#W]X%d ki®n.
+78	"#{_TIME%d}: %s#Y lên giá #Wr°i [#R#{_ITEM%d}#W]X%d ki®n, giá tiêu chu¦n #r#{_MONEY%d}"
+79	"#{_TIME%d}: %s#Y hÕ giá #Wr°i [#R#{_ITEM%d}#W]X%d ki®n, giá g¯c #r#{_MONEY%d}"
+80	"#{_TIME%d}: %s#Y lên giá #Wr°i [#R%s#W]X%d ki®n, giá tiêu chu¦n #r#{_MONEY%d}"
+81	"#{_TIME%d}: %s#Y hÕ giá#Wr°i[#R%s#W]X%d ki®n, giá g¯c #r #{_MONEY%d}"
+82	#{_TIME%d}: %s#Y khai trß½ng #W gian hàng thÑ %d.
+83	#{_TIME%d}: %s#Y ğóng cØa #W gian hàng thÑ %d.
+84	#{_TIME%d}: %s vào cØa hàng#Y nh§p ti«n v¯n#r #{_MONEY%d}
+85	#{_TIME%d}: %s vào cØa#Y nh§p ti«n l¶i #r #{_MONEY%d}
+86	Xin chào ğón các hÕ ğªn v¾i b±n ti®m
+87	Tin tÑc cá nhân phi pháp.
+88	V§t ph¦m này không nÕp lßu vào ngân hàng!
+89	Ngân kh¯
+90	V§t kiªn trúc phi pháp. 
+91	V§t ph¦m phi pháp. 
+92	"Song phß½ng không ğ°ng th¶i khai thông tuyªn lµ thß½ng nghi®p, không th¬ giao d¸ch ğßşc. "
+93	TrÕng thái bäo hµ không th¬ tiªn hành thao tác này. 
+94	Thao tác nhanh quá c¥n phäi ch¶ ğşi.
+95	Không có ngân phiªu, không th¬ mua s¡m
+96	Vàng bÕc ngân phiªu ğã ğÕt ngßŞng, không th¬ mua thêm
+97	Không ğü bÕc, không th¬ mua tiªp!
+98	Vàng bÕc ngân phiªu không ğü, không th¬ mua tiªp!
+99	C¯ng hiªn cüa bang không ğü, không th¬ mua tiªp!
+100	Tay näi ğã ğ¥y, không th¬ mua ğßşc!
+101	V§t ph¦m không t°n tÕi. 
+102	Không có ngân phiªu, bán ra không ğßşc
+103	Không có Bang Phái không ğßşc xin thành th¸. 
+104	Ğã có thành th¸ không ğßşc xin. 
+105	Ngân lßşng không ğü
+106	Chï có Bang Chü có th¬ xin thành th¸. 
+107	ĞÆng c¤p cüa các hÕ chßa h½n c¤p 20, không th¬ thay ğ±i trÕng thái PK
+108	M§t mã c¤p 2 sai
+109	Do các hÕ sØ døng v§t ğeo ngoài, nên không th¬ dùng kÛ nång!
+110	"Các hÕ b¸ hÕn chª tñ do, %d phút sau s¨ h°i phøc!"
+111	Các hÕ b¸ c¤m trò chuy®n, th¶i gian %d phút.
+112	#RMÑc trß·ng thành?%f
+113	#RChßa tìm ğßşc Trân thú theo chï ğ¸nh
+114	Các hÕ không th¬ thü ğµng hüy bö hi®u quä này.
+115	#YNgân lßşng cüa các hÕ ğã quá mÑc gi¾i hÕn, hãy tiêu b¾t ği. Lßu ı: không ğßşc #Rthoát khöi trò ch½i ho£c d¸ch ğ±i ğ¸a danh#Y, nªu không các hÕ s¨ b¸ m¤t ği s¯ ti«n vßşt gi¾i hÕn ğó
+116	C¤p b§c không ğü, không th¬ xin Bang Phái. 
+117	Ngân lßşng không ğü, không th¬ xin Bang Phái. 
+118	Ğang thuµc trÕng thái ly hµi không th¬ m¶i.
+119	Tên g÷i phi pháp, không th¬ xin Bang Phái. 
+120	Miêu thu§t phi pháp, không th¬ Thân thïnh bang phái.
+121	Miêu thu§t phi pháp, không th¬ thay ğ±i.
+122	Vån tñ phi pháp, không th¬ thay ğ±i.
+123	Tin tÑc tình bÕn phi pháp.
+124	V§t ph¦m này ğã ğßşc ch÷n lña
+125	Không th¬ ğ£t vào b±n ti®m
+126	V§t ph¦m ğã ghép lÕi
+127	Các hÕ ğang sØ døng chß½ng trình ngoài, không th¬ m· ğßşc!
+128	"Các hÕ b¸ hÕn chª tñ do, không th¬ m· ğßşc, %d phút sau s¨ h°i phøc!"
+129	ĞÆng c¤p cüa trân thú là %d, các hÕ hi®n không th¬ mang theo.
+130	%s nh§p hªt vào ti®m cüa các hÕ
+131	%s ĞÕi chß·ng qu¥y
+132	Miêu thu§t phi pháp.
+133	Tên giang hàng phi pháp.
+134	Trä l¶i chính xác, các hÕ ğÕt ğßşc #{_MONEY%d} báo ğáp!
+135	Trä l¶i chính xác!
+136	Tên trân thú phi pháp.
+137	Không th¬ ğßa lên giá
+138	"#{_INFOUSR%s} mua #{_INFOMSG%s} X %d, t±ng cµng tiêu hao #{_MONEY%d}"
+139	"#{_INFOUSR%s} mua Trân thú #{_INFOMSG%s}, t±ng cµng tiêu hao #{_MONEY%d}"
+140	Hãy hÕ tay näi ğã trang b¸ ğ¬ trang b¸ thêm.
+141	Hãy hÕ hòm ğ° ğã trang b¸ ğ¬ trang b¸ thêm.
+142	Các hÕ ğã sØ døng chß½ng trình ngoài, không th¬ sØ døng v§t ph¦m!
+143	Tay näi ğã ğ¥y
+144	#-08 %s Bang chü
+145	Các hÕ ğã gØi ğªn %s bang l¶i thïnh c¥u, ch¶ bang hµi xØ lı.
+146	%s bang chúng
+147	Hoan nghênh các hÕ gia nh§p %s, chúng ta k« vai sát cánh cùng hành t¦u ch¯n giang h°.
+148	#{_INFOUSR%s} do các hÕ phÕm lu§t, b¸ c¤m trò chuy®n %d phút
+149	ChÑc nång trò chuy®n cüa nhân v§t ğßşc khôi phøc, hãy tñ giác tuân thü lu§t ch½i, chúc các hÕ vui vë!
+150	Nh§n Trân thú thành công, các hÕ có th¬ cho chúng tiªp tøc sinh sôi gi¯ng nòi.
+151	Trân thú cüa các hÕ %s và %s Trân thú %s ğang nô ğùa vui vë.
+152	Qua %d phút, các hÕ có th¬ mang trân thú ğ¶i thÑ hai v« bên mình.
+153	Các hÕ phäi cùng v¾i %s l§p hµi ğªn trß¾c m¾i ğßşc nh§n.
+154	M¤t liên lÕc v¾i bÕn hæu trong hµi.
+155	Không tìm ğßşc bÕn hæu trong hµi...
+156	Ngân lßşng bang phái ğã ğªn mÑc gi¾i hÕn. 
+157	Nµi dung ğã biªn ğ±i, m¶i b§t lÕi t× ğ¥u. 
+158	MÑc c¯ng hiªn vßşt ngßŞng %d ği¬m, thao tác th¤t bÕi.
+159	MÑc c¯ng hiªn dß¾i ngßŞng 0 ği¬m, thao tác th¤t bÕi.
+160	Cài ğ£t mÑc c¯ng hiªn bang hµi là %d ği¬m
+161	Các hÕ ğßşc nh§n %d ği¬m mÑc c¯ng hiªn bang hµi.
+162	Các hÕ tiêu hao %d ği¬m mÑc c¯ng hiªn bang hµi.
+163	Hãy gia nh§p bang hµi trß¾c tiên.
+164	Phó bang chü, c¥n xin ğ¬ thành Bang chü, ği«u ki®n là Bang chü có 1 tu¥n ho£c 1 tu¥n tr· lên không online, m¾i có th¬ tiªn hành, hình nhß các hÕ không phäi Phó bang chü. 
+165	Các hÕ ğã trong mµt Bang Hµi khác, không th¬ xin. 
+166	Ğang m®t, không th¬ giao nhi®m vø.
+167	Không tìm th¤y v¤n ğ« này trong kho lßu træ, ğ« ngh¸ ki¬m tra lÕi !
+168	#{_INFOUSR%s} #Yğã xây dñng b±n thành #R#{CityBuildingName_T%d_L%d} #Ythêm gÕch thêm ngói ğ¦y tiªn ğµ tång lên 1, còn lÕi %d l¥n nhi®m vø xây dñng næa là thành công.
+169	#{_INFOUSR%s}#Y ğã nghiên cÑu b±n thành #R#{_ITEM%d} #Ykhông quän khó khån khiªn tiªn ğµ tång lên 1, còn lÕi %d l¥n nhi®m vø nghiên cÑu næa là thành công.
+170	Giá tr¸ công nghi®p cüa bang phái tång ğªn %d
+171	Giá tr¸ nông nghi®p cüa bang phái tång ğªn %d
+172	Giá tr¸ thß½ng nghi®p cüa bang phái tång ğªn %d
+173	Giá tr¸ qu¯c phòng cüa bang phái tång ğªn %d
+174	Giá tr¸ khoa h÷c kÛ thu§t cüa bang phái tång ğªn %d
+175	Giá tr¸ khuªch trß½ng cüa bang phái tång ğªn %d
+176	Vàng cüa Bang phái gia tång ğªn #{_MONEY%d}
+177	#YMÑc c¯ng hiªn cho bang phái cüa các hÕ hi®n là %d ği¬m.
+178	Giá tr¸ công nghi®p cüa bang phái tång %d
+179	Giá tr¸ nông nghi®p cüa bang phái tång %d
+180	Giá tr¸ thß½ng nghi®p cüa bang phái tång %d
+181	Giá tr¸ qu¯c phòng cüa bang phái tång %d
+182	Giá tr¸ khoa h÷c kÛ thu§t cüa bang phái tång %d
+183	Giá tr¸ khuªch trß½ng cüa bang phái tång %d
+184	Vàng cüa Bang phái gia tång #{_MONEY%d}
+185	Vàng cüa Bang phái giäm #{_MONEY%d}
+186	#YMÑc c¯ng hiªn bang phái tång %d ği¬m.
+187	#YMÑc c¯ng hiªn bang phái giäm %d ği¬m
+188	Chúc m×ng các hÕ thành công trong vi®c l§p %s Bang. Có th¬ sØ døng phím ALT+O ho£c ki¬m tra và quän lı bang hµi qua giao di®n thuµc tính nhân v§t cüa "Bang hµi". 
+189	Bang hµi %s khß¾c t× ğ« ngh¸ cüa các hÕ.
+190	Các hÕ và %s ğúng là chí b¤t ğ°ng, ğÕo b¤t hşp. Các hÕ ğã r¶i khöi %s.
+191	Quy«n hÕn cüa các hÕ ğã thay ğ±i, xin chúc m×ng các hÕ tr· thành bang chü cüa bang hµi.
+192	Vì b±n bang Bang chü th¶i gian dài không online, phó bang chü #{_INFOUSR%s} nh§n nhi®m vø s¯ng chªt cüa bang hµi, ğß¶ng ğß¶ng chính chính là b±n bang bang chü!
+193	Vì các hÕ có 1 tu¥n không online, phó bang chü %s vì sñ s¯ng còn cüa thành th¸ bang hµi ğã tr· thành b±n bang bang chü r°i. 
+194	#R%s #Ythành cüa #R%s #YBang, thành công là do #R#{CityBuildingName_T0_L%d} #Yvà nâng c¤p là do #R#{CityBuildingName_T0_L%d}#Y, m÷i ngß¶i v¤t vä quá.
+195	Thành cüa b±n bang  ğã nâng c¤p thành công lên là #{CityBuildingName_T0_L%d}, ğÆng c¤p là %d, mong m÷i ngß¶i tiªp tøc ph¤n ğ¤u, cùng vun ğ¡p mµt ngày mai tß½i sáng h½n.
+196	Thành này hi®n ğang có sñ bäo v® th¤p, phí bäo v® l¥n này là #{_MONEY%d}
+197	Thành này hi®n ğang có sñ bäo v® cao, phí bäo v® l¥n này là #{_MONEY%d}
+198	"#Y b±n thành thành công lên c¤p r°i #R#{CityBuildingName_T%d_L%d}, #Y xây dñng nhiêm vø ğã kªt thúc, m÷i ngß¶i v¤t vä r°i. "
+199	#YB±n thành ğã nghiên cÑu thành công #R#{_ITEM%d}#Y. V¤t vä cho m÷i ngß¶i quá.
+200	Chúc m×ng %s Bang ğã chiªm ğßşc lãnh ğ¸a %s
+201	Chúc m×ng %s Bang s· tÕi cüa bÕn dành ğßşc lãnh ğ¸a %s ğ¬ xây dñng thành ph¯ cüa Bang hµi.
+202	%s thành cüa %s Bang do kinh doanh kém, nên b¸ ğóng cØa.
+203	 Bang chúng 
+204	 Bang chü 
+205	 Phó bang chü 
+206	 Nµi vø sÑ 
+207	 Công vø sÑ 
+208	 Ho¢ng hóa sÑ 
+209	 Thß½ng nhân 
+210	 Tinh anh 
+211	Do trong 7 ngày lßşng thành viên bang hµi lên mÕng không ğü 5 ngß¶i, bang hµi ğã b¸ xóa tên khöi giang h°, nªu mu¯n tiªp tøc l§p bang hµi, có th¬ ğªn PhÕm Thu¥n Nhân · LÕc Dß½ng (140, 95) ğ¬ tiªn hành.
+212	Bang hµi cüa các hÕ ğã b¸ xóa tên trong giang h°.
+213	Hôm nay th¶i tiªt r¤t tuy®t !
+214	Trân thú cüa các hÕ ğã mãn nguy®t khai hoa, khoäng sau %d phút s¨ m© tròn con vuông. 
+215	Trân thú cüa các hÕ ğã sinh sän thành công, sau khi sinh sän thành công trong vòng #Y%d gi¶#W ğªn#GTô Châu (87, 143) #cff99ccVân Phi Phi#W nh§n trân thú Bäo Bäo, nªu không trân thú s¨ b¸ h® th¯ng thu h°i. khi nh§n xin hãy cùng#B%s#Wt± ğµi r°i hãy ğªn nh§n. #R %d-%d-%d %d:%.2d
+216	Do các hÕ không ğªn k¸p th¶i, Trân thú cüa các hÕ ğã mãn nguy®t khai hoa. TÕi hÕ xin lãnh nuôi. Kính báo. 
+217	Mông Di®n ĞÕi ĞÕo
+218	Chú ı: Bang phái%s phát l¶i tuyên chiªn v¾i bang cüa các hÕ vào lúc #{_TIME%d}, trong vòng 2 gi¶ các hÕ s¨ · vào trÕng thái Ñng chiªn, giªt chªt thành viên bang phái ğ¯i phß½ng s¨ không tång ği¬m sát khí, nhßng sau khi chªt s¨ b¸ tr×ng phÕt.
+219	Bang hµi %s ğã chü ğµng Ñng chiªn v¾i sñ tuyên chiªn cüa bang ta, th§t là không biªt tñ lßşng sÑc, các anh hùng hào ki®t hãy chu¦n b¸ hôm nay s¨ là ngày l§p uy danh cho bang ta!
+220	Bang hµi ta nguy nga to l¾n, v§y mà hôm nay có ngß¶i ğªn xâm phÕm, anh em nghe l®nh, ta s¨ Ñng chiªn v¾i bang hµi%s, cúc cung t§n tøy, dî ch¤n bang uy! 
+221	Phong vân tª hµi, long tranh h± ğ¤u! Bang hµi %s hi®u l®nh cùng bang hµi %s tuyên chiªn, ai s¨ là bá chü trong tr§n chiªn ngày hôm nay, chúng ta hãy cûng ch¶ ğşi! 
+222	Tùng, tùng, tùng! Tiªng tr¯ng thu binh! Các v¸ bang chúng xin hãy tÕm th¶i ng×ng chiªn, B±n bang hôm nay cùng %sbang hµi chiªn ğ¤u k¸ch li®t,gi¶ nhân mã ğã m®t, 2 bên quyªt ğ¸nh v« cüng c¯ binh mã, ngày sau ğánh tiªp! 
+223	%s #cff0000Xin chú ı! Bang phái cüa các hÕ ğang trong trang thái tuyên chiªn, ¤n vào bang phái tuyên chiªn trong giao di®n bang phái s¨ có th¬ xem chi tiªt thông tin.
+224	@*;SrvMsg;GLD:Chü lñc cüa b±n bang #{_INFOUSR%s} b²ng nhiên b¸ #{_INFOUSR%s} sát hÕi, th§t là khiªn ngß¶i ta n±i gi§n!
+225	@*;SrvMsg;GLD:Chü lñc cüa b±n bang #{_INFOUSR%s} b²ng nhiên b¸ #{_INFOUSR%s} ngß¶i cüa bang hµi #G[%s] #Wsát hÕi, th§t là khiªn ngß¶i ta n±i gi§n!
+226	#cff0000Thông ği®p bang hµi: #c6699ff%s
+227	Ngß½i vçn chßa ğßşc kªt bái, không th¬ lãnh xßng danh kªt bái
+228	Ngß½i ğã t×ng lãnh danh xßng kªt bái, không th¬ sØa danh xßng kªt bái
+229	#{_TIME%d}: ´Ó%s´¦³É¹¦ÊÕ¹ºµ½²ÄÁÏ[#R#{_ITEM%d}#W]X%d¼ş,ÊÕ¹ºµÄ½ğ¶îÎª#{_MONEY%d}
+230	ÈÎÎñÀ¸ÖĞ
+231	#R¹§Ï²Äú³É¹¦ÊÕ¹ºµ½²ÄÁÏ#{_INFOMSG%s},ÇëÄúµ½ÂåÑô¾ÅÖİÉÌ»áÀÏ°å--ÇÇ¸´Ê¢´¦[232£¬155]ÁìÈ¡²ÄÁÏ¡£
+232	ÇëÌáÉı³ıµÚÆß±¾ĞÄ·¨ÍâËùÓĞµÄĞÄ·¨µ½90¼¶¡£
+233	ÇëÌáÉı³ıµÚÆß±¾ĞÄ·¨ÍâËùÓĞµÄĞÄ·¨µ½100¼¶¡£
+234	ÇëÌáÉı³ıµÚÆß±¾ĞÄ·¨ÍâËùÓĞµÄĞÄ·¨µ½110¼¶¡£
+235	ÇëÌáÉı³ıµÚÆß±¾ĞÄ·¨ÍâËùÓĞµÄĞÄ·¨µ½120¼¶¡£
+236	ÇëÌáÉı³ıµÚÆß±¾ĞÄ·¨ÍâËùÓĞµÄĞÄ·¨µ½130¼¶¡£
+237	#{safeboxmsg1}
+238	×¢Òâ£¡#rÄúµÄ±£ÏÕÏä´¦ÓÚ¿ªÏä±£»¤ÆÚ×´Ì¬£¬%dÌìºóÕıÊ½¿ªÆô£¬#{safeboxmsg2}
+239	×¢Òâ£¡#rÄúµÄ±£ÏÕÏä´¦ÓÚ¿ªÏä±£»¤ÆÚ×´Ì¬£¬%dĞ¡Ê±%d·ÖÖÓºóÕıÊ½¿ªÆô£¬#{safeboxmsg3}
+240	±¾°ïÉÌÈË#{_INFOUSR%s}ÔÚ½øĞĞÉÌÈËÈÎÎñµÄ¹ı³ÌÖĞ£¬²»ĞÒ±»#G[%s]#W°ï»áµÄ#{_INFOUSR%s}Ëù½ÙÉ±£¬ÒøÆ±ÓëÉÌÆ·¾¡Êı¶ªÊ§£¬ºÃ²»ÁîÈË°ÃÄÕ¡£
+241	±¾°ïÉÌÈË#{_INFOUSR%s}ÔÚ½øĞĞÉÌÈËÈÎÎñµÄ¹ı³ÌÖĞ£¬²»ĞÒ±»#{_INFOUSR%s}Ëù½ÙÉ±£¬ÒøÆ±ÓëÉÌÆ·¾¡Êı¶ªÊ§£¬ºÃ²»ÁîÈË°ÃÄÕ¡£
+242	ÄúÕıÔÚ³é½±»ò¶Ò»»Ôª±¦ÖĞ£¬²»ÄÜ´«ËÍ
+243	´Ë°ï»áÃûÒÑ¾­±»Õ¼ÓÃ£¬´´½¨Ê§°Ü£¬Äú¸¶³öµÄ½ğÇ®ÒÑ·µ»¹¸øÄú¡£
+244	ÄãµÄµÈ¼¶Ğ¡ÓÚ%d¼¶£¬²»ÄÜ¶Ò»»
+245	Ö°Î»Ãû³ÆĞŞ¸Ä³É¹¦
+246	ĞŞ¸ÄÊ§°Ü£¬¾àÉÏ´ÎĞŞ¸ÄÖ°Î»Ãû³ÆÎ´³¬¹ı24Ğ¡Ê±
+247	Ö°Î»Ãû³Æ·Ç·¨
+248	¹ÙÔ±
+249	ĞÂÈË
+250	¹ØÄÚºî
+251	Í¤ºî
+252	Ïçºî
+253	ÏØºî
+254	¿¤ºî
+255	ÏØ¹«
+256	¿¤¹«
+257	¹ú¹«
+258	¿¤Íõ
+259	Ç×Íõ
+260	ÁìÈ¡Ö°Î»Ãû³Æ³É¹¦
+261	Ã»ÓĞ¿ÉÁìÈ¡µÄÖ°Î»Ãû³Æ
+262	°ïÖ÷ÒÑ¾­ĞŞ¸Ä¹ı×Ô¶©Ö°Î»Ãû³ÆÁË£¬Çë¸÷Î»¹ÙÔ±´ø×ÅÌÌ½ğÃûÌûµ½#GÂåÑô£¨200£¬103£©#RÕÂª#Y´¦ÁìÈ¡ĞÂµÄ³ÆºÅ¡£
+263	ÄúµÄ°ïÖ÷ÒÑ¾­ĞŞ¸ÄÁËÄúµÄÖ°Î»Ãû³Æ£¬Çë´ø×ÅÌÌ½ğÃûÌûµ½#GÂåÑô£¨200£¬103£©#RÕÂª#Y´¦ÁìÈ¡ĞÂµÄ³ÆºÅ¡£
+264	#Y±¾³Ç³É¹¦Éı¼¶µ½ÁË#R#{CityBuildingName_T%d_L%d},#Y½¨ÉèÈÎÎñÒÑ¾­½áÊø£¬ĞÁ¿à´ó¼ÒÁË¡£
+265	ÓÉÓÚÄúÊÜµ½ÁËËÀÍöµÄ¾Ş´ó´ò»÷£¬ÄúÉíÉÏÒÑ°ó¶¨µÄ#{_ITEM%d}×°±¸ÒÑ¾­ËğÊ§¡£
+266	ÓÉÓÚÄúÊÜµ½ÁËËÀÍöµÄ¾Ş´ó´ò»÷£¬ÄúÉíÉÏÒÑ°ó¶¨µÄ#{_ITEM%d}×°±¸µÄ¿ÉĞŞÀí´ÎÊı½µµÍÎª0µã¡£
+267	ÓÉÓÚÄúÊÜµ½ÁËËÀÍöµÄ¾Ş´ó´ò»÷£¬ÄúÉíÉÏÒÑËø¶¨µÄ#{_ITEM%d}×°±¸ÒÑ¾­ËğÊ§¡£
+268	ÓÉÓÚÄúÊÜµ½ÁËËÀÍöµÄ¾Ş´ó´ò»÷£¬ÄúÉíÉÏÒÑÉÏËøµÄ#{_ITEM%d}×°±¸µÄ¿ÉĞŞÀí´ÎÊı½µµÍÁË1µã¡£
+269	ÓÉÓÚÄúÊÜµ½ÁËËÀÍöµÄ¾Ş´ó´ò»÷£¬ÄúÉíÉÏµÄ#{_ITEM%d}×°±¸ÒÑ¾­¶ªÊ§ÁË¡£
+270	ÓÉÓÚÄúÊÜµ½ÁËËÀÍöµÄ¾Ş´ó´ò»÷£¬Äú°ü¹üÄÚµÄ#{_ITEM%d}ÒÑ¾­¶ªÊ§ÁË¡£
+271	ÓÉÓÚÄúÊÜµ½ÁËËÀÍöµÄ¾Ş´ó´ò»÷£¬Äú°ü¹üÄÚÒÑ°ó¶¨µÄ#{_ITEM%d}ÒÑ¾­ËğÊ§¡£
+272	ÓÉÓÚÄúÊÜµ½ÁËËÀÍöµÄ¾Ş´ó´ò»÷£¬Äú°ü¹üÄÚÒÑËø¶¨µÄ#{_ITEM%d}ÒÑ¾­ËğÊ§¡£
+273	³ÇÊĞÃû³Æ·Ç·¨
+274	#IGiang h° phong vân n±i lên, tân kiªn bang hµi %s#I · mµt thª h® hào ki®t %s#I dçn d¡t thuµc hÕ · trong ch¯n võ lâm kÏ tích qu§t kh·i.
+275	ÄúµÄ³ÆºÅ#Y%s#WÒÑ³¬¹ıÁËÊ¹ÓÃÆÚÏŞ£¬ÒÑ±»ÏµÍ³ÊÕ»Ø
+276	Äã±»%sÍæ¼Ò´ò°Ü¡£
+277	¹§Ï²ÄãËùÔÚµÄ%s°ï»á³É¹¦Õ¼¾İ%sÁìµØÎª°ï»á³ÇÊĞ¡£Äã¿ÉÒÔÔÚ°ï»á³ÇÊĞÖĞÉè¶¨°ï»á½¨ÉèºÍÑĞ¾¿µÄ·½Ïò¡£°ï»á×Ê½ğÖ÷ÒªÍ¨¹ıÅÜÉÌ»ñµÃ£¬Ä¿Ç°Äã¿ÉÒÔÈÎÃü8Ãû°ïÖÚÎªÉÌÈË¡£
+278	Ö»ÓĞ°ïÖ÷¿ÉÒÔĞŞ¸Ä°ï»á¹¤×÷¹ÜÀíÔ±
+279	ĞŞ¸ÄÊ§°Ü£¬×ÊÁÏÒÑ¹ıÆÚ
+280	ĞŞ¸Ä³É¹¦
+281	ÒòÈÎÎñÉÏµ÷
+282	ÒòÈÎÎñÏÂµ÷
+283	ÒòÈÎÎñÎ´×÷µ÷Õû£¬ÊÕÒæ²»±ä¡£
+284	¶îÍâ»ñµÃ°ï¹±
+285	¶îÍâ»ñµÃ½ğÇ®
+286	´Ó½±ÀøÖĞ¿Û³ı°ï¹±
+287	´Ó½±ÀøÖĞ¿Û³ı½ğÇ®
+288	24Ğ¡Ê±ÄÚÖ»ÄÜ½øĞĞÒ»´Î°ï»áÈÎÎñ¹ÜÀí¡£
+289	Ã»ÓĞ¸Ã°ï»á
+290	¸Ã°ï»á²»ÊÇ¸ÃÍ¬ÃË³ÉÔ±
+291	¿ª³ıÍ¬ÃË³É¹¦
+292	Ö»ÓĞÃËÖ÷¿ÉÒÔ¿ª³ıÍ¬ÃË
+293	²»ÄÜ¿ª³ıÃËÖ÷°ï»á
+294	°ÚÌ¯×´Ì¬²»ÄÜ´«ËÍ
+295	#{_INFOUSR%s}¹ºÂò #{_INFOMSG%s} X %d, ¹²»¨·Ñ%dÔª±¦
+296	´ËÎïÆ·ÊÇÔª±¦½»Ò×ÎïÆ·
+297	Ôª±¦Ì¯Î»
+298	ÄúÕı±ä»»³ÉÕ½³µ×´Ì¬£¬ÎŞ·¨´«ËÍ
+299	±äÑò×´Ì¬ÏÂÎŞ·¨´«ËÍ
+300	#P·çÔÆ¼Ê»á£¬ÁúÕù»¢¶·£¡#H%s#P°ï»áÒ»ÉùºÅÁî£¬·¢ÆğÁË¶Ô#H%s#P°ï»áµÄĞûÕ½£¬#H%s#P°ï»áÊÇ·ñÓĞµ¨Á¿½ÓÕ½£¿Á½¾ü¶ÔÀİ£¬Ë­½«ÊÇ½ñÈÕÒ»Õ½µÄ°ÔÖ÷£¿ÈÃÎÒÃÇÊÃÄ¿ÒÔ´ı!
+301	#IÎÒ°ï¼±±¨£¡#H%s#I°ï»á²»ÖªÌì¸ßµØºñ£¬¾¹È»¹«È»ÌôĞÆ£¬ÏòÎÒ°ïĞûÕ½£¬Çë°ïÖ÷ËÙËÙ¼¯ºÏÈËÂí£¬³¤ÎÒ¾üÖ¾Æø£¬×³ÎÒ°ïÉùÍş£¬Ïò#H%s#I°ï»á»¹ÒÔÑÕÉ«£¡
+302	#H%s#P°ï»á½ÓÊÜÁË#H%s#P°ï»áµÄĞûÕ½£¬Õ½¶·µÄºÅ½ÇÒÑ¾­´µÏì£¡Ë­ÄÜÖ÷Ô×Ë²Ï¢Íò±äµÄÕ½¾Ö£¬Ë­ÄÜ³ÉÎªÁ¦Íì¿ñÀ½µÄÓ¢ĞÛ£¿Õ½Ê¿ÃÇ£¬È¥äÃÂ¹¹ÅÕ½³¡Õù¶áÄãÃÇµÄÈÙÒ«°É£¡
+303	#H%s#P°ï»áÇü·şÓÚ#H%s#P°ï»áÇ¿´óµÄÊµÁ¦ºÍ³åÌìµÄ¶·Ö¾£¬²»¸ÒÓ¦Õ½£¬Ò»³¡Õ½¶·åôÓÚÎŞĞÎ¡£ÌìÏÂÖ®´ó£¬ÄÑµÀÃ»ÓĞÒ»¸ö°ï»áÊÇ#H%s#P°ï»áµÄ¶ÔÊÖÂğ£¿
+304	#I±¾°ïºÍ#H%s#I°ï»áµÄÕ½Õù£¬¼ıÔÚÏÒÉÏ£¬Ò»´¥¼´·¢£¡ÑïÎÒ°ïÉùÍş£¬¾ÍÔÚ½ñÌì£¬ÖÚÎ»Ó¢ĞÛºÀ½ÜÅû¹ÒÉÏÕó°¡£¡´ÓÂåÑôÖÜÈ»£¨265,50£©´¦¿ÉÒÔ½øÈëÕ½³¡¡£
+305	#P¸Õ¸Õ½áÊøµÄÒ»³¡Õ½¶·ÖĞ£¬#H%s#P°ï»áÖÚÖ¾³É³Ç£¬ÆëĞÄĞ­Á¦£¬½«#H%s#P°ï»á´òµÃÂä»¨Á÷Ë®£¬ÂúµØÕÒÑÀ£¬¿ÉÎ½È¡µÃÁËÒ»³¡º¨³©ÁÜÀìµÄ´óÊ¤¡£¹éÀ´µÄÓ¢ĞÛÃÇÆë¾ÛÂåÑô¹ã³¡£¬ÎªËûÃÇ»¶ºô°É£¡
+306	#P¸Õ¸Õ½áÊøµÄÒ»³¡Õ½¶·ÖĞ£¬#H%s#P°ï»á¼¼²»ÈçÈË£¬²»µĞ#H%s#P°ï»á£¬×Ô¾õÎŞÑÕÔÙ¼û½­¶«¸¸ÀÏ£¬¸ÄÍ·»»Ãæ£¬»ÒÍ·ÍÁÁ³µÄ¶ãÔÚÂåÑôÎ÷ÃÅ¡£ÕæÊÇÇ½µ¹ÖÚÈËÍÆ°¡£¡
+307	ÄúÒÑ¾­ÍË³ö°ï»á£¬ÄúµÄ³ÆºÅ#Y%s#WÒÑ¾­Ê§Ğ§¡£
+308	ÄúËùÔÚ°ï»áÃ»ÓĞÓµÓĞÂåÑô³Ç¹éÊôÈ¨£¬ÄúµÄ³ÆºÅ#Y%s#WÒÑ¾­Ê§Ğ§¡£
+309	#{_INFOUSR%s}¹ºÂò ÕäÊŞ#{_INFOMSG%s}, ¹²»¨·Ñ%dÔª±¦
