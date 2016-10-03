@@ -1,0 +1,8 @@
+[System]
+navmapname=Songliao_Xiuxi.nav
+monsterfile=Songliao_Xiuxi_monster.ini
+patrolpoint=Songliao_Xiuxi_patrolpoint.ini
+growpointdata=Songliao_Xiuxi_growpoint.txt
+growpointsetup=Songliao_Xiuxi_growpointsetup.txt
+eventfile=Songliao_Xiuxi_area.ini
+platformfile=Songliao_Xiuxi_platform.ini
