@@ -1,0 +1,5 @@
+[System]
+navmapname=shenlongdao.nav
+monsterfile=shenlongdao_monster.ini
+patrolpoint=shenlongdao_patrolpoint.ini
+eventfile=shenlongdao_area.ini

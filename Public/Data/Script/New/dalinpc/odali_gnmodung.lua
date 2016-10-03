@@ -1,0 +1,396 @@
+--ÇéÔµÌìÁú
+
+--½Å±¾ºÅ
+x990001_g_scriptId = 990001
+x990001_g_x990001_g_szTamPhap = 0
+szLuaFnGetXinFaLevel2 = 0
+--ËùÓµÓÐµÄÊÂ¼þIDÁÐ±í
+
+--**********************************
+--ÊÂ¼þÁÐ±í#G´ò¿×Ç°£¬±ØÐë±£Ö¤ÉíÉÏÓÐÒ»¸ö8¼¶¾«Ìú»ò8¼¶ÃÞ²¼»ò8¼¶ÃØÒø¡£
+--**********************************
+function x990001_OnDefaultEvent( sceneId, selfId,targetId )
+    BeginEvent(sceneId)
+		AddText(sceneId,"  Trß·ng môn sß huynh có vi®c tr÷ng ðÕi phäi làm, nhæng vi®c nh§n ð° ð® bái sß giao cho ta phø trách.")
+		local mp = GetMenPai(sceneId, selfId)
+		local nMenpaiPoint = GetHumanMenpaiPoint(sceneId, selfId)
+		if mp == 9 and nMenpaiPoint <= 0 then
+			AddNumText(sceneId, x990001_g_scriptId, "Gia nh§p môn phái",6,0)
+		end
+		if mp == 9 and nMenpaiPoint > 0 then
+			AddNumText(sceneId, x990001_g_scriptId, "KÛ nång h÷c t§p",12,1)
+		end
+		AddNumText(sceneId, x990001_g_ScriptId, "H÷c khinh công phái Mµ Dung",12,2)
+		AddNumText(sceneId, x990001_g_scriptId, "Gi¾i thi®u môn phái"..GetLevel( sceneId, selfId ),8,3)
+	EndEvent(sceneId)
+	DispatchEventList(sceneId,selfId,targetId)
+end
+
+function x990001_OnEventRequest( sceneId, selfId, targetId, eventId)
+	local haveMoney = x990001_MoneyDisplayChange( sceneId, selfId, GetMoney(sceneId, selfId)+GetMoneyJZ(sceneId, selfId) )
+	local nMenpaiPoint = GetHumanMenpaiPoint(sceneId, selfId)
+	if	GetNumText()==2	then
+		x990001_HocKinhCong(sceneId, selfId, targetId, nMenpaiPoint)
+	end
+	
+	if	GetNumText()==1	then
+		BeginEvent(sceneId)
+				AddText(sceneId, "  Ch÷n Bí t¸ch mu¯n nâng tâm pháp:")
+				AddNumText(sceneId, x990001_g_scriptId, "Giang Nam Kiªm Quyªt",12,20)
+				AddNumText(sceneId, x990001_g_ScriptId, "Sát Trß¶ng Quyªt",12,21)
+			AddNumText(sceneId, x990001_g_scriptId, "Viêm Dß½ng Tâm Pháp",12,22)
+			AddNumText(sceneId, x990001_g_scriptId, "Thanh Vân Bí T¸ch",12,23)
+			AddNumText(sceneId, x990001_g_scriptId, "Sß½ng Lînh Kiªm Thu§t",12,24)
+			AddNumText(sceneId, x990001_g_scriptId, "Tinh Nguy®t Yêu Thu§t",12,25)
+			AddNumText(sceneId, x990001_g_scriptId, "Tham Hþp Công",12,26)
+			EndEvent(sceneId)
+			DispatchEventList(sceneId,selfId,targetId)
+	end
+	
+	if GetNumText()==20 then
+		x990001_g_szTamPhap = 64
+		local szLuaFnGetXinFaLevel = LuaFnGetXinFaLevel(sceneId,selfId,x990001_g_szTamPhap)
+		if szLuaFnGetXinFaLevel == 10 or szLuaFnGetXinFaLevel == 20 or szLuaFnGetXinFaLevel == 30 or szLuaFnGetXinFaLevel == 40 or szLuaFnGetXinFaLevel == 50 or szLuaFnGetXinFaLevel == 60 or szLuaFnGetXinFaLevel == 70 or szLuaFnGetXinFaLevel == 80 or szLuaFnGetXinFaLevel == 90 or szLuaFnGetXinFaLevel == 100 or szLuaFnGetXinFaLevel == 110 or szLuaFnGetXinFaLevel == 120 or szLuaFnGetXinFaLevel == 130 or szLuaFnGetXinFaLevel == 140 then
+			szLuaFnGetXinFaLevel2 = szLuaFnGetXinFaLevel + 10;
+		else
+			szLuaFnGetXinFaLevel2 = szLuaFnGetXinFaLevel + 9;
+		end
+		BeginEvent(sceneId)
+			AddText(sceneId, "Bí t¸ch: #GGiang Nam Kiªm Quyªt#W#r")
+			AddText(sceneId, "Tâm pháp hi®n tÕi:        "..szLuaFnGetXinFaLevel)
+			AddText(sceneId, "Tâm pháp tiªp theo:     "..szLuaFnGetXinFaLevel2)
+			AddText(sceneId, "#rTi«n vàng có:               "..haveMoney)
+			AddText(sceneId, "Ti«n vàng c¥n:             "..szLuaFnGetXinFaLevel2.."#-02")
+			AddNumText(sceneId, x990001_g_scriptId, "H÷c",12,200)
+		EndEvent(sceneId)
+		DispatchEventList(sceneId,selfId,targetId)
+		return
+	end
+	
+	if GetNumText()==21	then
+		x990001_g_szTamPhap = 65
+		local szLuaFnGetXinFaLevel = LuaFnGetXinFaLevel(sceneId,selfId,x990001_g_szTamPhap)
+		if szLuaFnGetXinFaLevel == 10 or szLuaFnGetXinFaLevel == 20 or szLuaFnGetXinFaLevel == 30 or szLuaFnGetXinFaLevel == 40 or szLuaFnGetXinFaLevel == 50 or szLuaFnGetXinFaLevel == 60 or szLuaFnGetXinFaLevel == 70 or szLuaFnGetXinFaLevel == 80 or szLuaFnGetXinFaLevel == 90 or szLuaFnGetXinFaLevel == 100 or szLuaFnGetXinFaLevel == 110 or szLuaFnGetXinFaLevel == 120 or szLuaFnGetXinFaLevel == 130 or szLuaFnGetXinFaLevel == 140 then
+			szLuaFnGetXinFaLevel2 = szLuaFnGetXinFaLevel + 10;
+		else
+			szLuaFnGetXinFaLevel2 = szLuaFnGetXinFaLevel + 9;
+		end
+		BeginEvent(sceneId)
+			AddText(sceneId, "Bí t¸ch: #GSát Trß¶ng Quyªt#W#r")
+			AddText(sceneId, "Tâm pháp hi®n tÕi:        "..szLuaFnGetXinFaLevel)
+			AddText(sceneId, "Tâm pháp tiªp theo:     "..szLuaFnGetXinFaLevel2)
+			AddText(sceneId, "#rTi«n vàng có:               "..haveMoney)
+			AddText(sceneId, "Ti«n vàng c¥n:             "..szLuaFnGetXinFaLevel2.."#-02")
+			AddNumText(sceneId, x990001_g_scriptId, "H÷c",12,201)
+		EndEvent(sceneId)
+		DispatchEventList(sceneId,selfId,targetId)
+		return
+	end
+	
+	if GetNumText()==22	then
+		x990001_g_szTamPhap = 66
+		local szLuaFnGetXinFaLevel = LuaFnGetXinFaLevel(sceneId,selfId,x990001_g_szTamPhap)
+		if szLuaFnGetXinFaLevel == 10 or szLuaFnGetXinFaLevel == 20 or szLuaFnGetXinFaLevel == 30 or szLuaFnGetXinFaLevel == 40 or szLuaFnGetXinFaLevel == 50 or szLuaFnGetXinFaLevel == 60 or szLuaFnGetXinFaLevel == 70 or szLuaFnGetXinFaLevel == 80 or szLuaFnGetXinFaLevel == 90 or szLuaFnGetXinFaLevel == 100 or szLuaFnGetXinFaLevel == 110 or szLuaFnGetXinFaLevel == 120 or szLuaFnGetXinFaLevel == 130 or szLuaFnGetXinFaLevel == 140 then
+			szLuaFnGetXinFaLevel2 = szLuaFnGetXinFaLevel + 10;
+		else
+			szLuaFnGetXinFaLevel2 = szLuaFnGetXinFaLevel + 9;
+		end
+		BeginEvent(sceneId)
+			AddText(sceneId, "Bí t¸ch: #GViêm Dß½ng Tâm Pháp#W#r")
+			AddText(sceneId, "Tâm pháp hi®n tÕi:        "..szLuaFnGetXinFaLevel)
+			AddText(sceneId, "Tâm pháp tiªp theo:     "..szLuaFnGetXinFaLevel2)
+			AddText(sceneId, "#rTi«n vàng có:               "..haveMoney)
+			AddText(sceneId, "Ti«n vàng c¥n:             "..szLuaFnGetXinFaLevel2.."#-02")
+			AddNumText(sceneId, x990001_g_scriptId, "H÷c",12,202)
+		EndEvent(sceneId)
+		DispatchEventList(sceneId,selfId,targetId)
+		return
+	end
+
+	if GetNumText()==23	then
+		x990001_g_szTamPhap = 67
+		local szLuaFnGetXinFaLevel = LuaFnGetXinFaLevel(sceneId,selfId,x990001_g_szTamPhap)
+		if szLuaFnGetXinFaLevel == 10 or szLuaFnGetXinFaLevel == 20 or szLuaFnGetXinFaLevel == 30 or szLuaFnGetXinFaLevel == 40 or szLuaFnGetXinFaLevel == 50 or szLuaFnGetXinFaLevel == 60 or szLuaFnGetXinFaLevel == 70 or szLuaFnGetXinFaLevel == 80 or szLuaFnGetXinFaLevel == 90 or szLuaFnGetXinFaLevel == 100 or szLuaFnGetXinFaLevel == 110 or szLuaFnGetXinFaLevel == 120 or szLuaFnGetXinFaLevel == 130 or szLuaFnGetXinFaLevel == 140 then
+			szLuaFnGetXinFaLevel2 = szLuaFnGetXinFaLevel + 10;
+		else
+			szLuaFnGetXinFaLevel2 = szLuaFnGetXinFaLevel + 9;
+		end
+		BeginEvent(sceneId)
+			AddText(sceneId, "Bí t¸ch: #GThanh Vân Bí T¸ch#W#r")
+			AddText(sceneId, "Tâm pháp hi®n tÕi:        "..szLuaFnGetXinFaLevel)
+			AddText(sceneId, "Tâm pháp tiªp theo:     "..szLuaFnGetXinFaLevel2)
+			AddText(sceneId, "#rTi«n vàng có:               "..haveMoney)
+			AddText(sceneId, "Ti«n vàng c¥n:             "..szLuaFnGetXinFaLevel2.."#-02")
+			AddNumText(sceneId, x990001_g_scriptId, "H÷c",12,203)
+		EndEvent(sceneId)
+		DispatchEventList(sceneId,selfId,targetId)
+		return
+	end
+	
+	if GetNumText()==24	then
+		x990001_g_szTamPhap = 68
+		local szLuaFnGetXinFaLevel = LuaFnGetXinFaLevel(sceneId,selfId,x990001_g_szTamPhap)
+		if szLuaFnGetXinFaLevel == 10 or szLuaFnGetXinFaLevel == 20 or szLuaFnGetXinFaLevel == 30 or szLuaFnGetXinFaLevel == 40 or szLuaFnGetXinFaLevel == 50 or szLuaFnGetXinFaLevel == 60 or szLuaFnGetXinFaLevel == 70 or szLuaFnGetXinFaLevel == 80 or szLuaFnGetXinFaLevel == 90 or szLuaFnGetXinFaLevel == 100 or szLuaFnGetXinFaLevel == 110 or szLuaFnGetXinFaLevel == 120 or szLuaFnGetXinFaLevel == 130 or szLuaFnGetXinFaLevel == 140 then
+			szLuaFnGetXinFaLevel2 = szLuaFnGetXinFaLevel + 10;
+		else
+			szLuaFnGetXinFaLevel2 = szLuaFnGetXinFaLevel + 9;
+		end
+		BeginEvent(sceneId)
+			AddText(sceneId, "Bí t¸ch: #GSß½ng Lînh Kiªm Thu§t#W#r")
+			AddText(sceneId, "Tâm pháp hi®n tÕi:        "..szLuaFnGetXinFaLevel)
+			AddText(sceneId, "Tâm pháp tiªp theo:     "..szLuaFnGetXinFaLevel2)
+			AddText(sceneId, "#rTi«n vàng có:               "..haveMoney)
+			AddText(sceneId, "Ti«n vàng c¥n:             "..szLuaFnGetXinFaLevel2.."#-02")
+			AddNumText(sceneId, x990001_g_scriptId, "H÷c",12,204)
+		EndEvent(sceneId)
+		DispatchEventList(sceneId,selfId,targetId)
+		return
+	end
+	
+	if GetNumText()==25	then
+		x990001_g_szTamPhap = 69
+		local szLuaFnGetXinFaLevel = LuaFnGetXinFaLevel(sceneId,selfId,x990001_g_szTamPhap)
+		if szLuaFnGetXinFaLevel == 10 or szLuaFnGetXinFaLevel == 20 or szLuaFnGetXinFaLevel == 30 or szLuaFnGetXinFaLevel == 40 or szLuaFnGetXinFaLevel == 50 or szLuaFnGetXinFaLevel == 60 or szLuaFnGetXinFaLevel == 70 or szLuaFnGetXinFaLevel == 80 or szLuaFnGetXinFaLevel == 90 or szLuaFnGetXinFaLevel == 100 or szLuaFnGetXinFaLevel == 110 or szLuaFnGetXinFaLevel == 120 or szLuaFnGetXinFaLevel == 130 or szLuaFnGetXinFaLevel == 140 then
+			szLuaFnGetXinFaLevel2 = szLuaFnGetXinFaLevel + 10;
+		else
+			szLuaFnGetXinFaLevel2 = szLuaFnGetXinFaLevel + 9;
+		end
+		BeginEvent(sceneId)
+			AddText(sceneId, "Bí t¸ch: #GTinh Nguy®t Yêu Thu§t#W#r")
+			AddText(sceneId, "Tâm pháp hi®n tÕi:        "..szLuaFnGetXinFaLevel)
+			AddText(sceneId, "Tâm pháp tiªp theo:     "..szLuaFnGetXinFaLevel2)
+			AddText(sceneId, "#rTi«n vàng có:               "..haveMoney)
+			AddText(sceneId, "Ti«n vàng c¥n:             "..szLuaFnGetXinFaLevel2.."#-02")
+			AddNumText(sceneId, x990001_g_scriptId, "H÷c",12,205)
+		EndEvent(sceneId)
+		DispatchEventList(sceneId,selfId,targetId)
+		return
+	end
+	
+	if GetNumText()==26	then
+		x990001_g_szTamPhap = 70
+		local szLuaFnGetXinFaLevel = LuaFnGetXinFaLevel(sceneId,selfId,70)
+		if szLuaFnGetXinFaLevel <= 0 then
+			BeginEvent(sceneId)
+				AddText(sceneId, "Các hÕ chßa h÷c Bí t¸ch này")
+			EndEvent(sceneId)
+			DispatchEventList(sceneId,selfId,targetId)
+			return
+		else
+			if szLuaFnGetXinFaLevel == 10 or szLuaFnGetXinFaLevel == 20 or szLuaFnGetXinFaLevel == 30 or szLuaFnGetXinFaLevel == 40 or szLuaFnGetXinFaLevel == 50 or szLuaFnGetXinFaLevel == 60 or szLuaFnGetXinFaLevel == 70 or szLuaFnGetXinFaLevel == 80 or szLuaFnGetXinFaLevel == 90 or szLuaFnGetXinFaLevel == 100 or szLuaFnGetXinFaLevel == 110 or szLuaFnGetXinFaLevel == 120 or szLuaFnGetXinFaLevel == 130 or szLuaFnGetXinFaLevel == 140 then
+				szLuaFnGetXinFaLevel2 = szLuaFnGetXinFaLevel + 10;
+			else
+				szLuaFnGetXinFaLevel2 = szLuaFnGetXinFaLevel + 9;
+			end
+			BeginEvent(sceneId)
+				AddText(sceneId, "Bí t¸ch: #GTham Hþp Công#W#r")
+				AddText(sceneId, "Tâm pháp hi®n tÕi:        "..szLuaFnGetXinFaLevel)
+				AddText(sceneId, "Tâm pháp tiªp theo:     "..szLuaFnGetXinFaLevel2)
+				AddText(sceneId, "#rTi«n vàng có:               "..haveMoney)
+				AddText(sceneId, "Ti«n vàng c¥n:             "..szLuaFnGetXinFaLevel2.."#-02")
+				AddNumText(sceneId, x990001_g_scriptId, "H÷c",12,206)
+			EndEvent(sceneId)
+			DispatchEventList(sceneId,selfId,targetId)
+			return
+		end
+	end
+	
+	if GetNumText() >= 200 and GetNumText() <= 206 then
+		x990001_UpTamPhap( sceneId, selfId, targetId, x990001_g_szTamPhap );
+	end
+	
+	if	GetNumText()==3	then
+		BeginEvent(sceneId)
+			AddText(sceneId, "#{OBJ_gusu_0001}")
+		EndEvent(sceneId)
+		DispatchEventList(sceneId,selfId,targetId)
+	end
+	if GetNumText() == 0 then 
+		x990001_MenPai = GetMenPai(sceneId, selfId)
+		if GetLevel( sceneId, selfId ) < 10 then
+			BeginEvent(sceneId)
+				AddText(sceneId,"Các hÕ hãy ðþi t¾i sau c¤p 10 lÕi t¾i bái sß h÷c ngh®!")
+			EndEvent(sceneId)
+			DispatchEventList(sceneId,selfId,targetId)
+			return
+		elseif x990001_MenPai ~= 9 then
+			BeginEvent(sceneId)
+				AddText(sceneId,"Ngß½i ðã là cao ð° cüa môn phái khác, chúng ta không thu nh§n ngß½i")
+			EndEvent(sceneId)
+			DispatchEventList(sceneId,selfId,targetId)
+			return
+		elseif x990001_MenPai == 9 and nMenpaiPoint > 0 then
+			BeginEvent(sceneId)
+				AddText(sceneId, "Ngß½i lÕi t¾i qu¤y r¥y sß phø, ngß½i ðã là ð® tØ phái Mµ Dung, còn bái sß gì næa")
+			EndEvent(sceneId)
+			DispatchEventList(sceneId,selfId,targetId)
+			return
+		else
+			BeginEvent(sceneId)
+				AddText(sceneId, "Ðªn ðây, hãy gia nh§p Mµ Dung Thª Gia cüa chúng tôi ði.")
+				AddNumText(sceneId, x990001_g_scriptId, "Ta mu¯n bái nh§p phái Mµ Dung",6,4)
+				AddNumText(sceneId, x990001_g_scriptId, "TÕi hÕ chßa mu¯n bái sß",8,5)
+			EndEvent(sceneId)
+			DispatchEventList(sceneId,selfId,targetId)
+			return
+		end
+	end
+	if GetNumText()==5	then
+		BeginUICommand( sceneId )
+		UICommand_AddInt( sceneId, targetId )
+		EndUICommand( sceneId )
+		DispatchUICommand( sceneId, selfId, 1000 )
+		return
+	end
+	if GetNumText()==4	then
+		if LuaFnGetPropertyBagSpace( sceneId, selfId ) < 2 then
+			BeginEvent(sceneId)
+				AddText(sceneId,"  Hãy s¡p xªp lÕi tay näi, c¥n 2 v¸ trí tr¯ng, ta s¨ thß·ng cho ngß½i!")
+			EndEvent(sceneId)
+			DispatchEventList(sceneId,selfId,targetId)
+		else
+			LuaFnJoinMenpai(sceneId, selfId, selfId, 9)
+			CallScriptFunction( 200099, "InitRelation", sceneId, selfId )
+				
+			LuaFnSetXinFaLevel(sceneId,selfId,64,10)
+			LuaFnSetXinFaLevel(sceneId,selfId,65,10)
+			LuaFnSetXinFaLevel(sceneId,selfId,66,10)
+			LuaFnSetXinFaLevel(sceneId,selfId,67,10)
+			LuaFnSetXinFaLevel(sceneId,selfId,68,10)
+			LuaFnSetXinFaLevel(sceneId,selfId,69,10)
+
+			local nMenpaiPoint = GetHumanMenpaiPoint(sceneId, selfId)
+			SetHumanMenpaiPoint(sceneId, selfId, nMenpaiPoint+20)
+			BeginEvent(sceneId)
+				AddText(sceneId,"Các hÕ ðã gia nh§p phái Mµ Dung!");
+			EndEvent(sceneId)
+			DispatchMissionTips(sceneId,selfId)
+			TryRecieveItem( sceneId, selfId, 10432010, 1 )
+			if TryRecieveItem( sceneId, selfId, 10553095, 1 ) >= 0 then
+				str		= "#YCác hÕ ðã nh§n ðßþc "..GetItemName( sceneId, 10553095 ).."."
+				x990001_MsgBox( sceneId, selfId, str )
+			end
+			BeginUICommand( sceneId )
+			UICommand_AddInt( sceneId, targetId )
+			EndUICommand( sceneId )
+			DispatchUICommand( sceneId, selfId, 1000 )
+		end
+	end
+end
+
+function x990001_NotifyFailBox( sceneId, selfId, targetId, msg )
+	BeginEvent( sceneId )
+		AddText( sceneId, msg )
+	EndEvent( sceneId )
+	DispatchEventList( sceneId, selfId, targetId )
+end
+
+--**********************************
+-- ÆÁÄ»ÖÐ¼äÐÅÏ¢ÌáÊ¾
+--**********************************
+function x990001_NotifyFailTips( sceneId, selfId, Tip )
+	BeginEvent( sceneId )
+		AddText( sceneId, Tip )
+	EndEvent( sceneId )
+	DispatchMissionTips( sceneId, selfId )
+end
+
+function x990001_MsgBox( sceneId, selfId, str )
+	Msg2Player( sceneId, selfId, str, MSG2PLAYER_PARA )
+	BeginEvent( sceneId )
+		AddText( sceneId, str )
+	EndEvent( sceneId )
+	DispatchMissionTips( sceneId, selfId )
+end
+
+function x990001_HocKinhCong( sceneId, selfId, targetId, snMenpaiPoint )
+	if GetMenPai(sceneId, selfId) == 9 and snMenpaiPoint > 0 then
+		if	HaveSkill( sceneId, selfId, 200)<0	then
+			-- ¿ÛÇ®
+			if GetMoney(sceneId, selfId)+GetMoneyJZ(sceneId, selfId) < STUDY_MENPAI_QINGGONG_SPEND  then
+				BeginEvent(sceneId)
+					AddText(sceneId,"  Ngân lßþng trên ngß¶i các hÕ không ðü 1#-15, vì v§y không th¬ h÷c khinh công b±n môn")
+				EndEvent(sceneId)
+				DispatchEventList(sceneId,selfId,targetId)
+				return
+			end
+			-- ¿ÛÇ®
+			CostMoney(sceneId,selfId,STUDY_MENPAI_QINGGONG_SPEND)
+				
+			AddSkill( sceneId, selfId, 200 )
+			DelSkill( sceneId, selfId, 34 )
+			BeginEvent(sceneId)
+				AddText(sceneId,"Chúc m×ng ngß½i ðã h÷c ðßþc khinh công cüa b±n môn, hy v÷ng ngß½i tiªp tøc n² lñc ð¬ phát huy danh tiªng b±n môn")
+			EndEvent(sceneId)
+			DispatchEventList(sceneId,selfId,targetId)
+		else
+				BeginEvent(sceneId)
+					AddText(sceneId,"ChÆng phäi ngß½i ðã h÷c r°i sao?")
+				EndEvent(sceneId)
+				DispatchEventList(sceneId,selfId,targetId)
+		end
+	elseif GetMenPai(sceneId, selfId) == 9 then
+		BeginEvent(sceneId)
+			AddText(sceneId,"H÷c khinh công Mµ Dung trß¾c tiên c¥n gia nh§p phái Mµ Dung!")
+		EndEvent(sceneId)
+		DispatchEventList(sceneId,selfId,targetId)
+	else
+		BeginEvent(sceneId)
+			AddText(sceneId,"Ngß½i không phäi là ð® tØ cüa b±n bang, ta không th¬ dÕy ngß½i khinh công cüa Mµ Dung")
+		EndEvent(sceneId)
+		DispatchEventList(sceneId,selfId,targetId)
+	end
+end
+
+function x990001_UpTamPhap( sceneId, selfId, targetId, TamPhap )
+	local TamPhapHienTai = LuaFnGetXinFaLevel(sceneId,selfId,TamPhap)
+	if TamPhapHienTai >= GetLevel( sceneId, selfId ) then
+		BeginEvent(sceneId)
+			AddText(sceneId,"  ÐÆng c¤p Tâm pháp ðã ðÕt t¾i c¤p cao nh¤t. Xin nâng cao ðÆng c¤p nhân v§t")
+		EndEvent(sceneId)
+		DispatchEventList(sceneId,selfId,targetId)
+		return
+	end
+	if TamPhapHienTai == 10 or TamPhapHienTai == 20 or TamPhapHienTai == 30 or TamPhapHienTai == 40 or TamPhapHienTai == 50 or TamPhapHienTai == 60 or TamPhapHienTai == 70 or TamPhapHienTai == 80 or TamPhapHienTai == 90 or TamPhapHienTai == 100 or TamPhapHienTai == 110 or TamPhapHienTai == 120 or TamPhapHienTai == 130 or TamPhapHienTai == 140 then
+			TamPhapHienTai = TamPhapHienTai + 10;
+	else
+			TamPhapHienTai = TamPhapHienTai + 9;
+	end
+	NeedMoneyUP = TamPhapHienTai * 10000;
+	if GetMoney(sceneId, selfId)+GetMoneyJZ(sceneId, selfId) < NeedMoneyUP  then
+		BeginEvent(sceneId)
+			AddText(sceneId,"  Ngân lßþng trên ngß¶i các hÕ không ðü, vì v§y không th¬ nâng tâm pháp")
+		EndEvent(sceneId)
+		DispatchEventList(sceneId,selfId,targetId)
+		return
+	end
+	LuaFnSetXinFaLevel(sceneId,selfId,TamPhap,TamPhapHienTai)
+	CostMoney(sceneId,selfId,NeedMoneyUP)
+	x990001_MsgBox( sceneId, selfId, "Nâng tâm pháp thành công");
+	DispatchUICommand( sceneId, selfId, 1000 )
+end
+
+function x990001_MoneyDisplayChange( sceneId, selfId, money )
+	Moneydisplay = ""
+	Bronze = mod(money,100)
+	Silver = (mod(money,10000) - Bronze)/100
+	Gold = (money - Bronze - Silver * 100)/10000
+	if Gold ~= 0 and Silver ~= 0 and Bronze ~= 0 then
+		Moneydisplay = ""..Gold.."#-02"..Silver.."#-03"..Bronze.."#-04"
+	elseif Gold ~= 0 and Silver ~= 0 and Bronze == 0 then
+		Moneydisplay = ""..Gold.."#-02"..Silver.."#-03"
+	elseif Gold ~= 0 and Silver == 0 and Bronze ~= 0 then
+		Moneydisplay = ""..Gold.."#-02"..Bronze.."#-04"
+	elseif Gold ~= 0 and Silver == 0 and Bronze == 0 then
+		Moneydisplay = ""..Gold.."#-02"
+	elseif Gold == 0 and Silver ~= 0 and Bronze ~= 0 then
+		Moneydisplay = ""..Silver.."#-03"..Bronze.."#-04"
+	elseif Gold == 0 and Silver ~= 0 and Bronze == 0 then
+		Moneydisplay = ""..Silver.."#-03"
+	elseif Gold == 0 and Silver == 0 and Bronze ~= 0 then
+		Moneydisplay = ""..Bronze.."#-04"
+	elseif Gold  == 0 and Silver == 0 and Bronze == 0 then
+		Moneydisplay = "0#-04"
+	end
+	return Moneydisplay
+end

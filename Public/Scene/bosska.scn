@@ -1,0 +1,8 @@
+[System]
+navmapname=bosska.nav
+monsterfile=bosska_monster.ini
+patrolpoint=bosska_patrolpoint.ini
+growpointdata=bosska_growpoint.txt
+growpointsetup=bosska_growpointsetup.txt
+eventfile=bosska_area.ini
+petfile=bosska_pet.ini

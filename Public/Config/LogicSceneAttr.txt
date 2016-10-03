@@ -1,0 +1,221 @@
+INT	STRING	INT	INT
+³¡¾°ID	Name$1$	³¡¾°ID	ËùÊôÉÌÇø
+0	LÕc Dß½ng	0	1
+1	Tô Châu	1	2
+2	ÐÕi Lý	2	3
+3	NhÕn Nam Chính Nam	205	4
+4	NhÕn B¡c Chính Tây	206	5
+5	Tây H° Chính Tây	207	6
+6	Long Tuy«n Chính B¡c	208	7
+7	Thß½ng S½n Chính Tây	209	8
+8	Nhî Häi Chính Tây	210	9
+9	Thäo Nguyên Chính Tây	211	10
+10	Liêu Tây Tây B¡c	212	11
+11	Võ Di Chính Tây	213	12
+12	Mai Lînh Tây B¡c	214	13
+13	ThÕch Lâm Chính Nam	215	14
+14	Ng÷c Khê Tây Nam	216	15
+15	Trß¶ng BÕch S½n Tây B¡c	217	16
+16	Hoàng Long Phü Tây B¡c	218	17
+17	Nam Häi Chính B¡c	219	18
+18	QuÏnh Châu Chính Tây	220	19
+19	Nam Chiêu Tây Nam	221	20
+20	Miêu Cß½ng Chinh Ðông	222	21
+21	NhÕn Nam Chính Nam	223	4
+22	NhÕn B¡c Chính Tây	224	5
+23	Tây H° Chính Tây	225	6
+24	Long Tuy«n Chính B¡c	226	7
+25	Thß½ng S½n Chính Tây	227	8
+26	Nhî Häi Chính Tây	228	9
+27	Thäo Nguyên Chính Tây	229	10
+28	Liêu Tây Tây B¡c	230	11
+29	Võ Di Chính Tây	231	12
+30	Mai Lînh Tây B¡c	232	13
+31	ThÕch Lâm Chính Nam	233	14
+32	Ng÷c Khê Tây Nam	234	15
+33	Trß¶ng BÕch S½n Tây B¡c	235	16
+34	Hoàng Long Phü Tây B¡c	236	17
+35	Nam Häi Chính B¡c	237	18
+36	QuÏnh Châu Chính Tây	238	19
+37	Nam Chiêu Tây Nam	239	20
+38	Miêu Cß½ng Chinh Ðông	240	21
+39	NhÕn Nam Chính Nam	241	4
+40	NhÕn B¡c Chính Tây	242	5
+41	Tây H° Chính Tây	243	6
+42	Long Tuy«n Chính B¡c	244	7
+43	Thß½ng S½n Chính Tây	245	8
+44	Nhî Häi Chính Tây	246	9
+45	Thäo Nguyên Chính Tây	247	10
+46	Liêu Tây Tây B¡c	248	11
+47	Võ Di Chính Tây	249	12
+48	Mai Lînh Tây B¡c	250	13
+49	ThÕch Lâm Chính Nam	251	14
+50	Ng÷c Khê Tây Nam	252	15
+51	Trß¶ng BÕch S½n Tây B¡c	253	16
+52	Hoàng Long Phü Tây B¡c	254	17
+53	Nam Häi Chính B¡c	255	18
+54	QuÏnh Châu Chính Tây	256	19
+55	Nam Chiêu Tây Nam	257	20
+56	Miêu Cß½ng Chinh Ðông	258	21
+57	NhÕn Nam Chính Nam	259	4
+58	NhÕn B¡c Chính Tây	260	5
+59	Tây H° Chính Tây	261	6
+60	Long Tuy«n Chính B¡c	262	7
+61	Thß½ng S½n Chính Tây	263	8
+62	Nhî Häi Chính Tây	264	9
+63	Thäo Nguyên Chính Tây	265	10
+64	Liêu Tây Tây B¡c	266	11
+65	Võ Di Chính Tây	267	12
+66	Mai Lînh Tây B¡c	268	13
+67	ThÕch Lâm Chính Nam	269	14
+68	Ng÷c Khê Tây Nam	270	15
+69	Trß¶ng BÕch S½n Tây B¡c	271	16
+70	Hoàng Long Phü Tây B¡c	272	17
+71	Nam Häi Chính B¡c	273	18
+72	QuÏnh Châu Chính Tây	274	19
+73	Nam Chiêu Tây Nam	275	20
+74	Miêu Cß½ng Chinh Ðông	276	21
+75	NhÕn Nam Chính Nam	277	4
+76	NhÕn B¡c Chính Tây	278	5
+77	Tây H° Chính Tây	279	6
+78	Long Tuy«n Chính B¡c	280	7
+79	Thß½ng S½n Chính Tây	281	8
+80	Nhî Häi Chính Tây	282	9
+81	Thäo Nguyên Chính Tây	283	10
+82	Liêu Tây Tây B¡c	284	11
+83	Võ Di Chính Tây	285	12
+84	Mai Lînh Tây B¡c	286	13
+85	ThÕch Lâm Chính Nam	287	14
+86	Ng÷c Khê Tây Nam	288	15
+87	Trß¶ng BÕch S½n Tây B¡c	289	16
+88	Hoàng Long Phü Tây B¡c	290	17
+89	Nam Häi Chính B¡c	291	18
+90	QuÏnh Châu Chính Tây	292	19
+91	Nam Chiêu Tây Nam	293	20
+92	Miêu Cß½ng Chinh Ðông	294	21
+93	NhÕn Nam Chính Nam	295	4
+94	NhÕn B¡c Chính Tây	296	5
+95	Tây H° Chính Tây	297	6
+96	Long Tuy«n Chính B¡c	298	7
+97	Thß½ng S½n Chính Tây	299	8
+98	Nhî Häi Chính Tây	300	9
+99	Thäo Nguyên Chính Tây	301	10
+100	Liêu Tây Tây B¡c	302	11
+101	Võ Di Chính Tây	303	12
+102	Mai Lînh Tây B¡c	304	13
+103	ThÕch Lâm Chính Nam	305	14
+104	Ng÷c Khê Tây Nam	306	15
+105	Trß¶ng BÕch S½n Tây B¡c	307	16
+106	Hoàng Long Phü Tây B¡c	308	17
+107	Nam Häi Chính B¡c	309	18
+108	QuÏnh Châu Chính Tây	310	19
+109	Nam Chiêu Tây Nam	311	20
+110	Miêu Cß½ng Chinh Ðông	312	21
+111	NhÕn Nam Chính Nam	597	4
+112	NhÕn B¡c Chính Tây	598	5
+113	Tây H° Chính Tây	599	6
+114	Long Tuy«n Chính B¡c	600	7
+115	Thß½ng S½n Chính Tây	601	8
+116	Nhî Häi Chính Tây	602	9
+117	Thäo Nguyên Chính Tây	603	10
+118	Liêu Tây Tây B¡c	604	11
+119	Võ Di Chính Tây	605	12
+120	Mai Lînh Tây B¡c	606	13
+121	ThÕch Lâm Chính Nam	607	14
+122	Ng÷c Khê Tây Nam	608	15
+123	Trß¶ng BÕch S½n Tây B¡c	609	16
+124	Hoàng Long Phü Tây B¡c	610	17
+125	Nam Häi Chính B¡c	611	18
+126	QuÏnh Châu Chính Tây	612	19
+127	Nam Chiêu Tây Nam	613	20
+128	Miêu Cß½ng Chinh Ðông	614	21
+129	NhÕn Nam Chính Nam	615	4
+130	NhÕn B¡c Chính Tây	616	5
+131	Tây H° Chính Tây	617	6
+132	Long Tuy«n Chính B¡c	618	7
+133	Thß½ng S½n Chính Tây	619	8
+134	Nhî Häi Chính Tây	620	9
+135	Thäo Nguyên Chính Tây	621	10
+136	Liêu Tây Tây B¡c	622	11
+137	Võ Di Chính Tây	623	12
+138	Mai Lînh Tây B¡c	624	13
+139	ThÕch Lâm Chính Nam	625	14
+140	Ng÷c Khê Tây Nam	626	15
+141	Trß¶ng BÕch S½n Tây B¡c	627	16
+142	Hoàng Long Phü Tây B¡c	628	17
+143	Nam Häi Chính B¡c	629	18
+144	QuÏnh Châu Chính Tây	630	19
+145	Nam Chiêu Tây Nam	631	20
+146	Miêu Cß½ng Chinh Ðông	632	21
+147	NhÕn Nam Chính Nam	633	4
+148	NhÕn B¡c Chính Tây	634	5
+149	Tây H° Chính Tây	635	6
+150	Long Tuy«n Chính B¡c	636	7
+151	Thß½ng S½n Chính Tây	637	8
+152	Nhî Häi Chính Tây	638	9
+153	Thäo Nguyên Chính Tây	639	10
+154	Liêu Tây Tây B¡c	640	11
+155	Võ Di Chính Tây	641	12
+156	Mai Lînh Tây B¡c	642	13
+157	ThÕch Lâm Chính Nam	643	14
+158	Ng÷c Khê Tây Nam	644	15
+159	Trß¶ng BÕch S½n Tây B¡c	645	16
+160	Hoàng Long Phü Tây B¡c	646	17
+161	Nam Häi Chính B¡c	647	18
+162	QuÏnh Châu Chính Tây	648	19
+163	Nam Chiêu Tây Nam	649	20
+164	Miêu Cß½ng Chinh Ðông	650	21
+165	NhÕn Nam Chính Nam	651	4
+166	NhÕn B¡c Chính Tây	652	5
+167	Tây H° Chính Tây	653	6
+168	Long Tuy«n Chính B¡c	654	7
+169	Thß½ng S½n Chính Tây	655	8
+170	Nhî Häi Chính Tây	656	9
+171	Thäo Nguyên Chính Tây	657	10
+172	Liêu Tây Tây B¡c	658	11
+173	Võ Di Chính Tây	659	12
+174	Mai Lînh Tây B¡c	660	13
+175	ThÕch Lâm Chính Nam	661	14
+176	Ng÷c Khê Tây Nam	662	15
+177	Trß¶ng BÕch S½n Tây B¡c	663	16
+178	Hoàng Long Phü Tây B¡c	664	17
+179	Nam Häi Chính B¡c	665	18
+180	QuÏnh Châu Chính Tây	666	19
+181	Nam Chiêu Tây Nam	667	20
+182	Miêu Cß½ng Chinh Ðông	668	21
+183	NhÕn Nam Chính Nam	669	4
+184	NhÕn B¡c Chính Tây	670	5
+185	Tây H° Chính Tây	671	6
+186	Long Tuy«n Chính B¡c	672	7
+187	Thß½ng S½n Chính Tây	673	8
+188	Nhî Häi Chính Tây	674	9
+189	Thäo Nguyên Chính Tây	675	10
+190	Liêu Tây Tây B¡c	676	11
+191	Võ Di Chính Tây	677	12
+192	Mai Lînh Tây B¡c	678	13
+193	ThÕch Lâm Chính Nam	679	14
+194	Ng÷c Khê Tây Nam	680	15
+195	Trß¶ng BÕch S½n Tây B¡c	681	16
+196	Hoàng Long Phü Tây B¡c	682	17
+197	Nam Häi Chính B¡c	683	18
+198	QuÏnh Châu Chính Tây	684	19
+199	Nam Chiêu Tây Nam	685	20
+200	Miêu Cß½ng Chinh Ðông	686	21
+201	NhÕn Nam Chính Nam	687	4
+202	NhÕn B¡c Chính Tây	688	5
+203	Tây H° Chính Tây	689	6
+204	Long Tuy«n Chính B¡c	690	7
+205	Thß½ng S½n Chính Tây	691	8
+206	Nhî Häi Chính Tây	692	9
+207	Thäo Nguyên Chính Tây	693	10
+208	Liêu Tây Tây B¡c	694	11
+209	Võ Di Chính Tây	695	12
+210	Mai Lînh Tây B¡c	696	13
+211	ThÕch Lâm Chính Nam	697	14
+212	Ng÷c Khê Tây Nam	698	15
+213	Trß¶ng BÕch S½n Tây B¡c	699	16
+214	Hoàng Long Phü Tây B¡c	700	17
+215	Nam Häi Chính B¡c	701	18
+216	QuÏnh Châu Chính Tây	702	19
+217	Nam Chiêu Tây Nam	703	20
+218	Miêu Cß½ng Chinh Ðông	704	21

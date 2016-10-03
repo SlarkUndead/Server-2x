@@ -1,0 +1,128 @@
+--ÇéÔµÌìÁú
+
+--½Å±¾ºÅ
+x990001_g_scriptId = 990001
+
+--ËùÓµÓÐµÄÊÂ¼þIDÁÐ±í
+
+--**********************************
+--ÊÂ¼þÁÐ±í#G´ò¿×Ç°£¬±ØÐë±£Ö¤ÉíÉÏÓÐÒ»¸ö8¼¶¾«Ìú»ò8¼¶ÃÞ²¼»ò8¼¶ÃØÒø¡£
+--**********************************
+function x990001_OnDefaultEvent( sceneId, selfId,targetId )
+    BeginEvent(sceneId)
+		AddText(sceneId,"  Trß·ng môn sß huynh có vi®c tr÷ng ðÕi phäi làm, nhæng vi®c nh§n ð° ð® bái sß giao cho ta phø trách.")
+		local mp = GetMenPai(sceneId, selfId)
+		if mp == 9 then 
+			AddNumText(sceneId, x990001_g_scriptId, "Gia nh§p môn phái",6,0)
+		end
+		AddNumText(sceneId, x990001_g_scriptId, "KÛ nång h÷c t§p",6,1)
+		AddNumText(sceneId, x990001_g_scriptId, "Gi¾i thi®u môn phái",8,2)
+	EndEvent(sceneId)
+	DispatchEventList(sceneId,selfId,targetId)
+end
+
+function x990001_OnEventRequest( sceneId, selfId, targetId, eventId)
+	local nMenpaiPoint = GetHumanMenpaiPoint(sceneId, selfId)
+	if	GetNumText()==2	then
+		BeginEvent(sceneId)
+			AddText(sceneId, "#{OBJ_gusu_0001}")
+		EndEvent(sceneId)
+		DispatchEventList(sceneId,selfId,targetId)
+	end
+	if GetNumText() == 0 then 
+		x990001_MenPai = GetMenPai(sceneId, selfId)
+		if GetLevel( sceneId, selfId ) < 10 then
+			BeginEvent(sceneId)
+				AddText(sceneId,"Các hÕ hãy ðþi t¾i sau c¤p 10 lÕi t¾i bái sß h÷c ngh®!")
+			EndEvent(sceneId)
+			DispatchEventList(sceneId,selfId,targetId)
+			return
+		elseif x990001_MenPai ~= 9 then
+			BeginEvent(sceneId)
+				AddText(sceneId,"Ngß½i ðã là cao ð° cüa môn phái khác, chúng ta không thu nh§n ngß½i")
+			EndEvent(sceneId)
+			DispatchEventList(sceneId,selfId,targetId)
+			return
+		elseif x990001_MenPai == 9 and nMenpaiPoint > 0 then
+			BeginEvent(sceneId)
+				AddText(sceneId, "Ngß½i lÕi t¾i qu¤y r¥y sß phø, ngß½i ðã là ð® tØ phái Mµ Dung, còn bái sß gì næa")
+			EndEvent(sceneId)
+			DispatchEventList(sceneId,selfId,targetId)
+			return
+		else
+			BeginEvent(sceneId)
+				AddText(sceneId, "Ðªn ðây, hãy gia nh§p Mµ Dung Thª Gia cüa chúng tôi ði.")
+				AddNumText(sceneId, x015001_g_scriptId, "Ta mu¯n bái nh§p phái Mµ Dung",6,3)
+				AddNumText(sceneId, x015001_g_scriptId, "TÕi hÕ chßa mu¯n bái sß",8,4)
+			EndEvent(sceneId)
+			DispatchEventList(sceneId,selfId,targetId)
+			return
+		end
+	end
+	if GetNumText()==4	then
+		BeginUICommand( sceneId )
+		UICommand_AddInt( sceneId, targetId )
+		EndUICommand( sceneId )
+		DispatchUICommand( sceneId, selfId, 1000 )
+		return
+	end
+	if GetNumText()==3	then
+		if LuaFnGetPropertyBagSpace( sceneId, selfId ) < 1 then
+			BeginEvent(sceneId)
+				AddText(sceneId,"  Hãy s¡p xªp lÕi tay näi, c¥n 1 v¸ trí tr¯ng, ta s¨ thß·ng cho ngß½i!")
+			EndEvent(sceneId)
+			DispatchEventList(sceneId,selfId,targetId)
+		else
+			LuaFnJoinMenpai(sceneId, selfId, selfId, 9)
+			CallScriptFunction( 200099, "InitRelation", sceneId, selfId )
+				
+			LuaFnSetXinFaLevel(sceneId,selfId,64,10)
+			LuaFnSetXinFaLevel(sceneId,selfId,65,10)
+			LuaFnSetXinFaLevel(sceneId,selfId,66,10)
+			LuaFnSetXinFaLevel(sceneId,selfId,67,1)
+			LuaFnSetXinFaLevel(sceneId,selfId,68,1)
+			LuaFnSetXinFaLevel(sceneId,selfId,69,1)
+			AddSkill(  sceneId, selfId, 200)
+			DelSkill( sceneId, selfId, 34 )
+			local nMenpaiPoint = GetHumanMenpaiPoint(sceneId, selfId)
+			SetHumanMenpaiPoint(sceneId, selfId, nMenpaiPoint+20)
+			BeginEvent(sceneId)
+				AddText(sceneId,"Các hÕ ðã gia nh§p phái Mµ Dung!");
+			EndEvent(sceneId)
+			DispatchMissionTips(sceneId,selfId)
+			if TryRecieveItem( sceneId, selfId, 10553095, 1 ) >= 0 then
+				str		= "#YCác hÕ ðã nh§n ðßþc "..GetItemName( sceneId, 10553095 ).."."
+				x990001_MsgBox( sceneId, selfId, str )
+			end
+			BeginUICommand( sceneId )
+			UICommand_AddInt( sceneId, targetId )
+			EndUICommand( sceneId )
+			DispatchUICommand( sceneId, selfId, 1000 )
+		end
+	end
+end
+
+function x990001_NotifyFailBox( sceneId, selfId, targetId, msg )
+	BeginEvent( sceneId )
+		AddText( sceneId, msg )
+	EndEvent( sceneId )
+	DispatchEventList( sceneId, selfId, targetId )
+end
+
+--**********************************
+-- ÆÁÄ»ÖÐ¼äÐÅÏ¢ÌáÊ¾
+--**********************************
+function x990001_NotifyFailTips( sceneId, selfId, Tip )
+	BeginEvent( sceneId )
+		AddText( sceneId, Tip )
+	EndEvent( sceneId )
+	DispatchMissionTips( sceneId, selfId )
+end
+
+function x990001_MsgBox( sceneId, selfId, str )
+	Msg2Player( sceneId, selfId, str, MSG2PLAYER_PARA )
+	BeginEvent( sceneId )
+		AddText( sceneId, str )
+	EndEvent( sceneId )
+	DispatchMissionTips( sceneId, selfId )
+end

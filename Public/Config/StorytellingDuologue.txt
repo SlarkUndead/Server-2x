@@ -1,0 +1,125 @@
+INT	STRING
+¶Ô»°ĞòºÅ	¶Ô»°ÄÚÈİ$1$
+0	Ğ¬ tr¯ng là ğßşc
+1	    Mµt th¶i gian trß¾c ğây nghe nói Thª TØ vçn còn · ĞÕi Lı thành, v« sau nghe nói ğã ği Trung Nguyên r°i
+2	    Nghe ngß¶i bÕn t× Trung Nguyên tr· v« nói, Thª TØ cüa Tr¤n Nam Vß½ng Phü ğã t×ng xu¤t hi®n · vùng Tô Châu
+3	    Thª TØ cüa Tr¤n Nam Vß½ng Phü thích chu du thiên hÕ, b¯c ch¯c mu¯n höi tin tÑc, nhßng lÕi không chu¦n xác, nghe nói h¡n ta ğã t×ng ği ğªn Tô Châu
+4	    Nhæng cái khác thì ta không biªt, chï là nghe ngß¶i bÕn thân · Vô Tích nói, các hÕ ra ğã t×ng g£p Thª TØ Tr¤n Nam vß½ng u¯ng rßşu cùng 1 ğÕi häo hán tÕi TØu TÑ
+5	    SuÜt, vi®c này không th¬ ğ¬ nhæng ngß¶i khác biªt, nghe nói Thª TØ cüa Tr¤n Nam Vß½ng ğã b¸ 1 h° tång cß¾p m¤t
+6	    , °, Vån thái cüa Thª tØ khiªn ngß¶i ta phäi kinh ngÕc, giai vån nh¤t ğ¸nh s¨ ğßa cho MÕnh Tiên Sinh
+7	    A di ğà Ph§t, thi®n tai, thi®n tai, Thª tØ cüa Tr¤n Nam Vß½ng thông minh sáng dÕ h½n ngß¶i, khá là có duyên v¾i ğÑc Ph§t cüa ta, trß¶ng thØ tinh nghiên Ph§t lı, công mÕt ğÕi h«
+8	    Thi®n tai thi®n tai, b¥n tång ğã ğ÷c trß¾c r°i
+9	    A di ğà Ph§t, ğa tÕ %R công bôn ba, tÕi ğây b¥n tång ch¡p tay r°i
+10	    Vô lßşng thiên tôn, Thª tØ cüa Tr¤n Nam Vß½ng thông ming sáng dÕ h½n ngß¶i, nghiên cÑu kinh sách cüa ĞÕo gia tß½ng ğ¯i kÛ càng có trình ğµ, trß¶ng thØ tinh nghiên ğÕo lı, công mÕt ğÕi h«
+11	    Quá t¯t, quá t¯t, B¥n ğÕo ğã ğ÷c trß¾c r°i
+12	    Vô lßşng thiên tôn, ğa tÕ %Rcông bôn ba. TÕi ğây b¥n ğÕo xin ch¡p tay
+13	    Di®u tai, di®u tai, ğúng là vån chß½ng tuy®t häo, Thª tØ tr¤n Nam Vß½ng thông minh sáng dÕ h½n ngß¶i. Vån chß½ng lı lu§n tinh túy thâm sâu, khiªm ta vô cùng bái phøc
+14	    Quá t¯t, quá t¯t, ğşi ta xin ğßşc ğ÷c trß¾c ğã
+15	    Quá t¯t, có công ğßa hµ bài vån này ği
+16	    H×m, xin hãy chuy¬n l¶i ğªn thª tØ cüa tên ĞÕi Lı kia, chuy®n cüa em h÷ ta không khiªn h¡n ta phäi ğªm xïa
+17	    Phi dã, phi dã, phi l­ v§t m¾i là ğÕo cüa quân tØ, Thª tØ cüa ĞÕi Lı chÆng là quân tØ ğó sao?
+18	    Vß½ng cô nß½ng luôn luôn ği theo công tØ gia, nhæng tin tÑc höi cô ta r°i lÕi nói cho ngß½i biªt cûng chÆng có gì ğáng ngÕi
+19	    Vß½ng cô nß½ng luôn luôn ği theo công tØ gia, nhæng tin tÑc höi cô ta r°i lÕi nói cho ngß½i biªt cûng chÆng có gì ğáng ngÕi
+20	    Vß½ng cô nß½ng luôn luôn ği theo công tØ gia, nhæng tin tÑc höi cô ta r°i lÕi nói cho ngß½i biªt cûng chÆng có gì ğáng ngÕi
+21	    À, ôi, trong lá thß có nhæng tin höi thåm Vß½ng cô nß½ng à? Vß½ng cô nß½ng luôn ği theo công tØ
+22	    Trong thß là nhæng tin höi thåm Yên nhi, con bé này d¤u ta tr¯n khöi MÕn ğà s½n trang, Ta thì lÕi không hay biªt tı gì v« nó, lÕi mu¯n ği cùng th¢ng oát con nhà Mµ Dung kia
+23	    İ cüa công tØ, ta hi¬u, ta s¨ thay h¡n dò höi Vß½ng, ... °, höi dò tin tÑc v« ngß¶i này
+24	    T¤m th¸nh tình cüa... Ki«u Bang chü... Tiêu ğÕi vß½ng ğã nh§n, Cái Bang chúng ta không c¥n ğªn ân hu® cüa ngß¶i nß¾c Liêu.
+25	    Th§t không ng¶ các hÕ lÕi ğßa thß cho ngß¶i nß¾c Liêu. Hmm... Ğáng tiªc, ğáng tiªc.
+26	    TÕi hÕ t× trß¾c ğªn nay luôn khâm phøc Ki«u ğÕi ca, không ng¶ ğÕi ca lÕi là ngß¶i Liêu
+27	    Xin chuy¬n l¶i Ki«u... Tiêu ğÕi ca, ít nh¤t trong Cái Bang tÕi hÕ s¨ không quên ğÕi ân ğÕi ğÑc cüa ğÕi ca.
+28	    TÕi hÕ ğã nghe qua chuy®n này, chuy®n ğã nhß v§y, Tiêu ğ® lÕi không nŞ ra tay, ğ×ng quá trách mình.
+29	    TÕi hÕ ğã nghe Chính Thu¥n nói v« chuy®n này, chuuy¬n l¶i ğªn quı vß½ng, nªu ğã vô ı, s¯ng chªt có s¯, không c¥n tñ trách mình.
+30	    Nói lÕi thª nào, A Châu kh± m®nh cüa ta cûng b¸ thß½ng n£ng, nªu có th¬ tr¸ khöi thì th§t là giöi.
+31	    Tï phu tÕi hÕ ğä thß½ng tÖ tÖ cüa tÕi hÕ, tÕi hÕ t§n m¡t trông th¤y. V§y mà tï phu vçn còn nh§n l¶i tÖ tÖ chåm sóc tÕi hÕ.
+32	    TÕi hÕ Tri®u Ti«n Tôn m£c dù lµn xµn lung tung nhßng tÕi hÕ cho dù có chªt cûng không khai ra Ğ¾i Ğ¥u ğÕi ca.
+33	    Cho dù Tiêu Phong róc xß½ng räi tro tÕi hÕ, v¸ ğÕi ca ğÑng ğ¥u này tÕi hÕ cho dù có chªt cûng không khai ra Ğ¾i Ğ¥u ğÕi ca.
+34	    TÕi hÕ hãy nói v¾i tên c¦u nß¾c Liêu ğó, mu¯n có tin tÑc cüa Ğ¾i Ğ¥u ğÕi ca t× tÕi hÕ là không th¬.
+35	    A Di Ğà Ph§t, nhßng hy v÷ng Tiêu thí chü nghî ğªn thiên hÕ, ch¾ có tiªp tøc truy ğu±i ğªn cùng.
+36	    TÕi hÕ Ğan m² là ngß¶i nhß thª nào? Ğ×ng nh¡c ğªn Ğ¾i Ğ¥u ğÕi ca næa, ğ×ng nh¡c ğªn næa.
+37	    Hãy nói Nam vi®n ğÕi vß½ng các ngß½i r¢ng m£c dù võ công cüa tÕi hÕ không b¢ng ğÕi vß½ng nhßng nªu ép tÕi hÕ khai ra Ğ¾i Ğ¥u ğÕi ca là ği«u không th¬.
+38	    TÕi hÕ chï là l¤y ğßşc thß tiên phu ğ¬ lÕi, còn höi tÕi hÕ v« Ğ¾i Ğ¥u ğÕi ca thì tÕi hÕ lÕi không biªt.
+39	    Mµt th¶i gian trß¾c ğây nghe nói Thª TØ vçn còn · ĞÕi Lı thành, v« sau nghe nói ğã ği Trung Nguyên r°i
+40	    Nghe ngß¶i bÕn t× Trung Nguyên tr· v« nói, Thª TØ cüa Tr¤n Nam Vß½ng Phü ğã t×ng xu¤t hi®n · vùng Tô Châu
+41	    Thª TØ cüa Tr¤n Nam Vß½ng Phü thích chu du thiên hÕ, b¯c ch¯c mu¯n höi tin tÑc, nhßng lÕi không chu¦n xác, nghe nói h¡n ta ğã t×ng ği ğªn Tô Châu
+42	    Nhæng cái khác thì ta không biªt, chï là nghe ngß¶i bÕn thân · Vô Tích nói, các hÕ ra ğã t×ng g£p Thª TØ Tr¤n Nam vß½ng u¯ng rßşu cùng 1 ğÕi häo hán tÕi TØu TÑ
+43	    SuÜt, vi®c này không th¬ ğ¬ nhæng ngß¶i khác biªt, nghe nói Thª TØ cüa Tr¤n Nam Vß½ng ğã b¸ 1 h° tång cß¾p m¤t
+44	    Ğß½ng kim thánh thßşng chính thông nhân hoà, yêu dân nhß con, chúng ta ca ngşi còn không th¬ hªt.
+45	    Bæa ån t¯i quä không t°i...Trång hôm nay dù vào ban ngày cûng th§t tròn...
+46	    Ğ×ng nói ğªn qu¯c sñ, ğ×ng nói ğªn qu¯c sñ. TÕi hÕ chÆng biªt chuy®n gì hªt.
+47	    Các hÕ dò höi xem h÷ làm gì? L¨ nào không mu¯n s¯ng næa?
+48	    Xin l²i, tÕi hÕ không phäi ngß¶i nß¾c ĞÕi Lı, hoàn toàn không biªt chuy®n cüa các hÕ.
+49	    Các hÕ ğang nói gì v§y? TÕi hÕ không hi¬u?
+50	    TÕi hÕ nghe nói nhæng ngß¶i thành vi®c l¾n, t¤t cä ğ«u dña vào mµt chæ "Nhân". Ğoàn Diên Khánh thân là thü lînh cüa TÑ ĞÕi Ác Nhân, tâm ğ¸a ğµc ác, làm gì có nhân nghîa ğ¬ nói? TÕi hÕ s¨ không nh§p b÷n v¾i h¡n.
+51	    Ğoàn Diên Khánh xu¤t thân t× dòng dõi quı tµc, có chí khí l¾n, võ ngh® xu¤t chúng, có th¬ nói là anh ki®t mµt ğ¶i. Nhßng bây gi¶ tri«u ğình Ğoàn Chính Minh nß¾c ĞÕi Lı trong sÕch, giäm phøc d¸ch . Giúp ğŞ Ğoàn Diên Khánh s¨ chï ğem lÕi sñ kh± äi cho ngß¶i dân mà thôi. Nhæng chuy®n nhß thª này tÕi hÕ s¨ không tham gia.
+52	    Lòng dân nß¾c ĞÕi Lı thuµc v« huynh ğ® cüa Ğoàn Chính Minh, Ğoàn Diên Khánh mu¯n khôi phøc ğ¸a v¸ cû, s¨ chï t¯n công vô ích mà thôi. Nång lñc cüa h¡n càng l¾n, ngß¶i giúp càng nhi«u, âm mßu càng thâm ğµc, chï ğem lÕi cho ngß¶i dân càng nhi«u tai ß½ng. ThÑ l²i cho tÕi hÕ không th¬ giúp ğŞ!
+53	    Ği«u này... giang h° ğ°n th±i nhi«u, tÕi hÕ chï là kë b¥n hàn.
+54	    Mµ Dung công tØ có vi®c c¥n nh¶, th§t vinh dñ cho bän quan nhßng trong tay bän quan quä th§t không giàu có dß giä gì.
+55	    Ti«n, lß½ng thñc? ĞÕi sñ? Các ngß½i mu¯n tÕo phän? Mau ği ği, ta ğã b¦m lên tri«u ğình.
+56	    Ti«n, lß½ng thñc? ĞÕi sñ? Các ngß½i mu¯n tÕo phän? Ğ×ng ğ¬ liên luÜ ğªn ta.
+57	    Mµ Dung gia lÕi có th¬ m· m°m nói chuy®n v¾i tÕi hÕ, chuy®n này trß¾c ğây chßa bao gi¶ xäy ra, ha ha, mi­n bàn.
+58	    A Di Ğà Ph§t, tÕi hÕ ngß¶i xu¤t gia không nói chuy®n tr¥n tøc, thí chü ch¾ nh¡c lÕi l¶i này, thi®n tai thi®n tai!
+59	    Thí chü , b¥n tång chï là ngß¶i xu¤t gia, nói gì ğªn danh v÷ng, thi®n tÕi thi®n tai!
+60	    T® tñ vçn là ngß¶i xu¤t gia, không ch¸u sñ sai khiªn cüa ngß¶i khác, Cô Tô Mµ Dung thí chü nªu nói uy hiªp b¢ng vû lñc thì tång ni t® tñ này quyªt không khu¤t phøc.
+61	    Vô Lßşng Thiên Tôn, thí chü ch¾ nói x¢ng, bän phái trß¾c ğây tu ğ½n luy®n ğÕo, t§p võ chï là ğ¬ tång cß¶ng sÑc khoë, Mµ Dung thí chü có ğÕi sñ gì l¾n, b¥n ğÕo không quan tâm cûng không tham dñ.
+62	    Hãy nói v¾i Mµ Dung thí chü, b¥n ğÕo t× trß¾c không màng ğªn chuy®n giang h°, thÑ l²i không th¬ tuân l®nh.
+63	    Chuyên giang h°, bän phái sau này cûng không tham dñ, xin thí chü hãy chuy¬n ı cüa b¥n ğÕo t¾i Mµ Dung thí chü.
+64	    Giúp ğŞ? T® phái luôn xa r¶i Trung Nguyên, ân oán v¾i Trung Nguyên cån bän không mu¯n b¸ lôi cu¯n vào.
+65	    ĞÕi sñ? Chúng ta cách xa Trung Nguyên, không hi¬u nhi«u v« chuy®n cüa Mµ Dung công tØ.
+66	    Giang h° Trung Nguyên các ngß¶i luôn chém giªt lçn nhau, xin l²i, t® phái không mu¯n lôi vào trong chuy®n này.
+67	    Ğ® tØ phái ta rút khöi giang h° nhi«u nåm, dù có chuy®n l¾n bé gì, thÑ l²i không ti®n tham gia.
+68	    Ği«u này... t® phái sau này không tham dñ vào chuy®n ân oán giang h°, ğÕi sñ cüa Mµ Dung công tØ, ğã không ti®n nói rõ, chúng tôi cûng nh¡c ğªn næa.
+69	    Sñ vi®c cüa quı qu¯c chúng tôi không ti®n tham dñ, ğÕi sñ mà v¸ Mµ Dung kia c¥n làm lÕi không th¬ nói rõ, nß¾c tÕi hÕ giúp ğŞ thª nào ğây?
+70	    Nghe l®nh Mµ Dung công tØ? TÕi hÕ há là ngß¶i dß¾i, ğ×ng nh¡c t¾i næa!
+71	    Cô Tô Mµ Dung tuy có tiªng trên giang h°, mu¯n tÕi hÕ nghe l®nh h¡n, hãy quên chuy®n ğó ği, cÑ ğ¬ ngß¶i mang h÷ Mµ Dung ğó ğªn tìm tÕi hÕ.
+72	    Ha ha, các hÕ nói tÕi hÕ là ngß¶i nhß thª nào? Rõ ràng mu¯n tÕi hÕ th¥n phøc Cô Tô Mµ Dung? Th§t bu°n cß¶i.
+73	    , Mµ Dung công tØ th§t khách khí, có gì d£n dò nói v¾i tÕi hÕ là ğßşc r°i, lÕi còn nhß thª... ğßşc r°i ğßşc ğßşc, tÕi hÕ nh§n trß¾c v§y.
+74	    Ği«u này không hay l¡m! TÕi hÕ t× trß¾c ğªn nay không ğßa tay nh§n l­, các hÕ cÑ trñc tiªp ğ£t vào tay áo cüa tÕi hÕ là ğßşc.
+75	    Ği«u này... Ği«u này, khách khí quá, ngân phiªu l¥n trß¾c vçn chßa dùng hªt... Thôi ğßşc, ğành nh§n trß¾c v§y.
+76	    Mµ Dung công tØ..., bän quan ğang thu th§p ngân phiªu Tô Châu, tÕi hÕ m¾i có 56 t¶, nghe nói h½n 100 t¶ mµt bµ.
+77	    Vô sñ hiªn ân c¥n, phi gian tÑc ğÕo! Ni®m tình các hÕ l¥n ğ¥u phÕm phäi, bän quan không xét tµi các hÕ, có ği«u v§t chÑng vçn còn, v« nói v¾i Mµ Dung Phøc r¢ng l¥n sau ğ×ng ğ¬ tái phÕm.
+78	    Bän quan thanh liêm chính trñc, t× trß¾c ğªn nay chßa t×ng nh§n h¯i lµ. T¤m ngân phiªu này ta huÖ ngay trß¾c m£t, các hÕ ği nói v¾i Mµ Dung Phøc r¢ng l¥n này ta bö qua, l¥n sau còn tái phÕm bän quan quyªt không tha.
+79	    Các hÕ höi... cái ğó... hai bên mông... cüa tôn chü chúng tôi có vªt s©o? Ğây, ğây, chúng tôi nào biªt... Nhßng cách ğây vài ngày, nhæng ch¸ em h¥u tôn chü t¡m gµi nói hình nhß là có.
+80	    Hß Trúc, tÕi hÕ t§n m¡t th¤y nó trß·ng thành. ĞÑa trë này hình nhß có mµt l¥n nh¡c qua, nó và Ph§t môn có duyên, trên ngß¶i tñ nhiên ğã có vªt s©o. Nhßng li®u sinh ·... A Di Ğà Ph§t, lão nÕp không biªt.
+81	    Chß·ng môn sß thúc ğã không còn là ğ® tØ Thiªu lâm næa, nhßng lÕi luôn tñ cho mình là ğ® tØ cüa Thiªu lâm. Sß phø nói trên ngß¶i chß·ng môn sß thúc sinh ra ğã có vªt s©o, khí ch¤t Ph§t môn ğây, làm thª nào cûng không biªn m¤t.
+82	    »m, thiªp m¶i ğã nh§n ğßşc r°i, có c½ hµi nh¤t ğ¸nh s¨ ğªn thåm Tây HÕ.
+83	    Hãy nói v¾i sÑ giä nß¾c Tây HÕ, có ğßşc vinh dñ ğ£c bi®t này, vô cùng vinh hÕnh.
+84	    Các hÕ höi Tr¤n Nam Vß½ng thª tØ à, tÕi hÕ cûng không rõ, chï nghe nói s¾m ğã không · trong thành ĞÕi Lı r°i.
+85	    , các hÕ tìm ğúng ngß¶i r°i, höi tÕi hÕ tÕi hÕ biªt rõ nh¤t, thª tØ ch¡c ch¡n không · ĞÕi Lı.
+86	    Thª tØ ğã ği Trung Nguyên, Tr¤n Nam Vß½ng r¤t lo l¡ng, nghe nói Chuyên Trình ğã ği Trung Nguyên tìm thª tØ r°i.
+87	    Thông tin cüa tÕi hÕ dáng tin c§y. Tr¤n Nam Vß½ng thª tØ cùng ği Trung Nguyên v¾i mµt Phiên tång, mu¯n ğªn h÷c Ph§t pháp cüa Phiên Bang.
+88	    Có mµt ngß¶i bÕn buôn bán · Tô Châu v«, nói r¢ng nhìn th¤y Tr¤n Nam Vß½ng thª tØ · ğó.
+89	    Bäo Ğ¸nh Ğª Tr¤n Nam Vß½ng l¤y nhân nghîa tr¸ qu¯c, thª tØ không có tin tÑc gì, chúng ta là dân thß¶ng cûng lo thay cho h÷.
+90	    Phß½ng pháp làm bánh ng÷t Giang Nam này cüa ta xin nh¶ thiªu hi®p giao cho næ hi®p Nguy­n Tinh Trúc.
+91	    Woo, næ hi®p Nguy­n Tinh Trúc mu¯n có phß½ng pháp làm bánh Phù dung à, ğ¬ ta chï cho ngß½i.
+92	    Ta s¨ mang phß½ng pháp chª tÕo Bánh lá sen nói cho ngß½i biªt, ngß¶i hãy nh¾ kÛ ğ¤y.
+93	    Cu¯i cùng các hÕ ğã ğªn, ğ¬ ta chï cho các hÕ biªt phß½ng pháp chª tÕo Quª hoa này.
+94	    »m, tÕi hÕ nh§n l¶i ğem t£ng Ti¬u A Bích quy¬n thñc ğ½n, ×m, chính là quy¬n này, v¤t vä cho các hÕ ğem ğªn.
+95	    A Bích, ×m, có chuy®n nhß thª này, quy¬n thñc ğ½n này cô nß½ng nh§n l¤y.
+96	    V¤t vä cho các hÕ quá. TÕi hÕ xin nh§n.
+97	    Là cô nß½ng kia, ×m, quy¬n thñc ğ½n này cô nß½ng nh§n l¤y.
+98	    Cái gì? Vß½ng phu nhân! Tr¶i ½i, xin hãy tha cho tÕi hÕ, giúp tôi v¾i!
+99	    Tình cäm vş ch°ng tÕi tÕi tÕi hÕ r¤t sâu ğ§m, tÕi tÕi tÕi hÕ ğâu có phäi lòng v¾i cô nß½ng khác.
+100	    Ây, không ng¶ vçn không tr¯n ğßşc... vçn b¸ Vß½ng phu nhân phát hi®n ra.
+101	    TÕi hÕ l¤y cä 2 v« làm vş không ğßşc sao? C¥u xin các hÕ hãy nói t¯t trß¾c m£t Vß½ng phu nhân.
+102	    TÕi hÕ không mu¯n làm phân bón cho hoa ğâu! CÑu tÕi hÕ v¾i! Bây gi¶ tÕi hÕ ği viªt hßu thß...
+103	    G¥n ğây tÕi hÕ ğang luy®n chiêu "Lam Sa Thü" cüa sß phø nhßng vçn chßa th¬ lînh hµi ğßşc.
+104	    Chiêu Cáp Mô Công cho dù tÕi hÕ ngày ğêm tu luy®n không ng×ng, e r¢ng cûng khó ğÕt ğßşc 1/10 uy lñc cüa sß phø.
+105	    G¥n ğây tÕi hÕ ğang luy®n chiêu Thiên ğ¸a ğ°ng th÷, chiêu này là do sß phø suy ra t× các chiêu cüa Võ Ğang phái mà thành.
+106	    Chiêu "Chï lµc vi mã" r¤t phÑc tÕp, nhßng chï c¥n nh¾ 4 chæ " MÕt sát lang tâm", thì cûng không khó.
+107	    Mµc giáp thu§t chï c¥n tu luy®n là ğÕt, là có th¬ nâng cao khä nång phòng thü cüa mình.
+108	    Chiêu "Bång tàm ğµc chß·ng" v¯n là chiêu thÑc cüa Thiªt Ğ¥u sß huynh, sau khi ğßşc sß phø cäi tiªn, uy lñc càng l¾n.
+109	    A Di Ğà Ph§t, có chuy®n c¥n phi«n ğªn thí chü và ti¬u tång nh¡n mµt câu, hãy báo%n, nói cho anh ta tÕi hÕ có vi®c, th¶i gian này an ninh · LÕc Dß½ng không t¯t l¡m, c¥n bäo v® nghiêm ng£t sñ an nguy cüa Tông Tán vß½ng tØ.
+110	    Ti¬u tång có chuy®n mu¯n b¦m, Vß½ng tØ nß¾c tôi Tông Tán g¥n ğây ği Tây HÕ xin làm phò mã, phi«n thí chü ği tìm %n yêu c¥u h¡n nh¤t ğ¸nh phäi bäo v® vß½ng tØ.
+111	    Ti¬u tång có chuy®n mu¯n phi«n thí chü, xin hãy tìm %n xác nh§n vi®c ti¬u tång nh¶ l¥n trß¾c li®u ğã hoàn thành.
+112	      %n tÕi hÕ có vi®c mu¯n nh¶ h¡n, phi«n thí chü ği höi hµ ti¬u tång, tình hình nhß thª nào.
+113	    Ti¬u tång có mµt vi®c mu¯n nh¶, xin hãy tìm %n, h©n h¡n li®n h® v¾i ti¬u tång, có vi®c liên quan ğªn lşi ích hai nß¾c c¥n bàn bÕc.
+114	    A Di Ğà Ph§t, xin m¶i thí chü. Ti¬u tång hy v÷ng %n liên lÕc bàn bÕc ğÕi sñ qu¯c gia, phi«n thí chü nh¡n t¾i anh ta, ti¬u tång xin ğa tÕ trß¾c.
+115	    Thuµc hÕ xin tuân theo s¡p xªp cüa qu¯c sß.
+116	    Qu¯c sß có l®nh, thuµc hÕ muôn chªt không t×.
+117	    Bäo v® vß½ng tØ là chÑc trách cüa thuµc hÕ, hãy nói v¾i qu¯c sß, nh¤t ğ¸nh không làm qu¯c sß th¤t v÷ng.
+118	    Hãy nói v¾i Th± Ph°n qu¯c sß, vi®c nguy hÕi ğªn ĞÕi T¯ng, bän quan quyªt không tham gia.
+119	    Nhæng vi®c ğÕi sñ qu¯c gia nhß v§y, qu¯c sß theo con ğß¶ng chính mà làm, bän quan to gan ğªn m¤y cûng không dám vßşt quá quy«n ğ¬ nghe theo l®nh.
+120	    Ği«u này, ği«u này, ğây chính là tµi l¾n, bän quan tuy®t ğ¯i không dám nghe theo l®nh.
+121	    »m, biªt r°i, có th¬ cùng Th± Ph°n ğánh Trung Nguyên, tuy là vi®c t¯t nhßng vçn c¥n tính toán bàn bÕc
+122	    Có chút r¡c r¯i, ğánh Trung Nguyên mµt chuy®n, tuy không t°i nhßng quân ĞÕi T¯ng binh hùng tß¾ng mÕnh, lß½ng thäo ğ¥y ğü, e r¢ng không d­ nhß v§y.
