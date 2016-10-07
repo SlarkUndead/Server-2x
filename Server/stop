@@ -1,55 +1,106 @@
 #!/bin/sh
 
-###### stop Server ######
-cd /home/tlbb/Server #&& touch quitserver.cmd
-echo " stopping Server ......"
+userage()
+{
+  echo "Usage: ./stop billing|server|login|shm|world"
+}
 
-until
-[ "$?" = "1" ]
-do
-  ps aux | grep -i "./Server " | grep -v grep >/dev/null 2>&1
-done
-echo " Server stoped completely !!!!!!"
+server() {
+	###### stop Server ######
+	cd /home/tlbb/Server
+	echo "========= stopping Server ========="
 
-###### stop Login ######
-LOGINPID=`ps aux | grep "./Login" | grep -v grep | awk '{print $2}'`
-kill -9 $LOGINPID
-echo " Login is stopping ......"
+	until
+	[ "$?" = "1" ]
+	do
+	  ps aux | grep -i "./Server " | grep -v grep >/dev/null 2>&1
+	done
+	echo " Server stoped completely !!!!!!"
+}
 
-until
-[ "$?" = "1" ]
-do
-  ps aux | grep -i "./Login" | grep -v grep >/dev/null 2>&1
-done
-echo " Login stoped completely !!!!!!"
+login() {
+	###### stop Login ######
+	cd /home/tlbb/Server
 
-###### stop World ######
-WORLDPID=`ps aux | grep -i "./World" | grep -v grep | awk '{print $2}'`
-kill -9 $WORLDPID
-echo " World is stopping ......"
+	LOGINPID=`ps aux | grep "./Login" | grep -v grep | awk '{print $2}'`
+	kill -9 $LOGINPID
+	echo "========= Login is stopping ========="
 
-until
-[ "$?" = "1" ]
-do
-  ps aux | grep -i "./World" | grep -v grep >/dev/null 2>&1
-done
-echo " World stoped completely !!!!!!"
+	until
+	[ "$?" = "1" ]
+	do
+	  ps aux | grep -i "./Login" | grep -v grep >/dev/null 2>&1
+	done
+	echo " Login stoped completely !!!!!!"
+}
 
-###### stop ShareMemory ######
-cd /home/tlbb/Server/ #&& touch exit.cmd
-echo " ShareMemroy is saving data ......"
+world() {
+	###### stop World ######
+	cd /home/tlbb/Server
+	WORLDPID=`ps aux | grep -i "./World" | grep -v grep | awk '{print $2}'`
+	kill -9 $WORLDPID
+	echo "========= World is stopping ========="
 
-until
-[ "$?" = "1" ]
-do
-  ps aux | grep -i "./ShareMemory" | grep -v grep >/dev/null 2>&1
-done
-echo " ShareMemory stoped completely !!!!!!"
+	until
+	[ "$?" = "1" ]
+	do
+	  ps aux | grep -i "./World" | grep -v grep >/dev/null 2>&1
+	done
+	echo " World stoped completely !!!!!!"
+}
 
-#billing
+shm() {
+	###### stop ShareMemory ######
+	cd /home/tlbb/Server/
+	echo "========= ShareMemroy is saving data ========="
 
-###### transfer logs ######
-#DIR=`date +%Y%m%d-%H%M`
-#mkdir -p /home/tlbb/logbak/$DIR
-#mv /home/tlbb/Server/Log/* /home/tlbb/logbak/$DIR
-#echo " log transfer to "/home/tlbb/logbak/" completely !!!!!!"
+	until
+	[ "$?" = "1" ]
+	do
+	  ps aux | grep -i "./ShareMemory" | grep -v grep >/dev/null 2>&1
+	done
+	echo " ShareMemory stoped completely !!!!!!"
+}
+
+billing() {
+  _running=`ps -A | grep Billing | awk '{print $1}'`
+  if [ "$_running" != "" ] ; then
+		echo "========= Billing is stopping ========="
+    kill -9 $_running
+    echo "Billing is stopped."
+    return 1
+  fi
+  return 0
+}
+
+if [ $# != 1 ]
+then
+	billing
+	server
+	login
+	world
+	shm
+	exit 1
+fi
+
+case $1 in
+	billing)
+		billing
+	;;
+	world)
+		world
+	;;
+	server)
+		server
+	;;
+	login)
+		login
+	;;
+	shm)
+		shm
+	;;
+	*)
+		userage
+		exit 1
+	;;
+esac
