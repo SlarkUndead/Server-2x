@@ -1,1 +1,8 @@
-*.log
+/Server/Log/*.log
+
+!/Server/Log/dberror.log
+!/Server/Log/login_dump.log
+!/Server/Log/luaerror.log
+!/Server/Log/server_dump.log
+!/Server/Log/shm_dump.log
+!/Server/Log/world_dump.log

@@ -1,0 +1,12 @@
+Dump: threadid=-146941632, Time: 2016-4-3 12:0:7
+TERM exception:
+./ShareMemory() [0x8068dd1]
+./ShareMemory() [0x805c2f8]
+[0xf7793c60]
+[0xf7793c90]
+/lib/i386-linux-gnu/libc.so.6(nanosleep+0x46) [0xf74c0826]
+/lib/i386-linux-gnu/libc.so.6(usleep+0x3d) [0xf74ef88d]
+./ShareMemory() [0x805ec11]
+./ShareMemory() [0x805eed4]
+/lib/i386-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0xf7424a83]
+./ShareMemory(__gxx_personality_v0+0x91) [0x8049e05]
