@@ -40,9 +40,11 @@ echo " ShareMemroy is saving data ......"
 until
 [ "$?" = "1" ]
 do
-  ps aux | grep -i "./ShareMemory" | grep -v grep >/dev/null 2>&1 
+  ps aux | grep -i "./ShareMemory" | grep -v grep >/dev/null 2>&1
 done
 echo " ShareMemory stoped completely !!!!!!"
+
+#billing
 
 ###### transfer logs ######
 #DIR=`date +%Y%m%d-%H%M`
