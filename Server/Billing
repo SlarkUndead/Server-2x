@@ -9,9 +9,10 @@ fi
 
 _wine=`wine --version`
 if [ "$_wine" != "" ] ; then
-  _billing=`[ -f ../Billing/Billing.exe ] && echo "yes" || echo "no"`
+  _billingpath="../Billing/Billing.exe"
+  _billing=`[ -f $_billingpath ] && echo "yes" || echo "no"`
   if [ "$_billing" == "yes" ] ; then
-    wine "../Billing/Billing.exe" >/dev/null 2>&1 &
+    wine $_billingpath >/dev/null 2>&1 &
     echo "Billing is running."
   else
     echo "Billing file not found."
