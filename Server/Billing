@@ -1,0 +1,21 @@
+#start or stop Billing
+#!/bin/sh
+# Usage: shm start stop clear disp
+
+_running=`ps -A | grep Billing | awk '{print $1}'`
+if [ "$_running" != "" ] ; then
+  kill -9 $_running
+fi
+
+_wine=`wine --version`
+if [ "$_wine" != "" ] ; then
+  _billing=`[ -f ../Billing/Billing.exe ] && echo "yes" || echo "no"`
+  if [ "$_billing" == "yes" ] ; then
+    wine "../Billing/Billing.exe" >/dev/null 2>&1 &
+    echo "Billing is running."
+  else
+    echo "Billing file not found."
+  fi
+else
+  echo "Need wine to run this."
+fi
