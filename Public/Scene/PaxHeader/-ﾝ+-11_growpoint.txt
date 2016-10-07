@@ -1,0 +1,3 @@
+21 hdrcharset=BINARY
+47 path=tlbb/Public/Scene/-Ý+-11_growpoint.txt
+27 atime=1459832291.713203
