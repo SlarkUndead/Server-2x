@@ -1,22 +1,64 @@
 #start or stop Billing
 #!/bin/sh
-# Usage: shm start stop clear disp
+# Usage: Billing start stop clear disp
 
-_running=`ps -A | grep Billing | awk '{print $1}'`
-if [ "$_running" != "" ] ; then
-  kill -9 $_running
-fi
+userage() {
+  echo "Usage: ./Billing start|stop|clear|disp"
+}
 
-_wine=`wine --version`
-if [ "$_wine" != "" ] ; then
-  _billingpath="../Billing/Billing.exe"
-  _billing=`[ -f $_billingpath ] && echo "yes" || echo "no"`
-  if [ "$_billing" == "yes" ] ; then
-    wine $_billingpath >/dev/null 2>&1 &
-    echo "Billing is running."
+start() {
+  _wine=`wine --version`
+  if [ "$_wine" != "" ] ; then
+    _billingpath="../Billing/Billing.exe"
+    _billing=`[ -f $_billingpath ] && echo "yes" || echo "no"`
+    if [ "$_billing" == "yes" ] ; then
+      wine $_billingpath >/dev/null 2>&1 &
+      echo "Billing is running."
+    else
+      echo "Billing file not found."
+    fi
   else
-    echo "Billing file not found."
+    echo "Need wine to run this."
   fi
-else
-  echo "Need wine to run this."
+}
+
+stop() {
+  _running=`ps -A | grep Billing | awk '{print $1}'`
+  if [ "$_running" != "" ] ; then
+    kill -9 $_running
+    echo "Billing is stopped."
+    return 1
+  fi
+  return 0
+}
+
+if [ $# != 1 ]
+then
+	userage
+	start
+	exit 1
 fi
+
+case $1 in
+	start)
+	  start
+		if [ $? == 0 ]; then
+		  echo "start ShareMemory ok! pls wait for it run in loop()..."
+		else
+		  echo "some error occ when start ShareMemory, please retry!"
+		fi
+	;;
+	stop)
+	  stop
+		if [ $? == 0 ]; then
+		  echo "stop shm ok!"
+		else
+		  echo "some error occ when stop shm, please retry!"
+		fi
+	;;
+	*)
+		userage
+		start
+		exit 1
+	;;
+esac
