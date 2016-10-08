@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 userage()
 {
@@ -78,13 +78,19 @@ billing() {
   fi
 }
 
-if [ $# != 1 ]
-then
+if [ $# != 1 ] ; then
 	billing
 	server
 	login
 	world
 	shm
+
+	hasLog=`find ./Log -name "*.log"`
+	if [ "$hasLog" ] ; then
+	    rm -r ./Log/*.log
+			echo "====>>> ALL LOGGING ARE DELETED <<<===="
+	fi
+
 	echo "====>>> ALL ARE STOPPED <<<===="
 	exit 1
 fi
