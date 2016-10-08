@@ -8,55 +8,65 @@ userage()
 server() {
 	###### stop Server ######
 	SERVERPID=`ps aux | grep "./Server" | grep -v grep | awk '{print $2}'`
-	kill -9 $SERVERPID
-	echo "========= stopping Server ========="
+  if [ "$LOGINPID" != "" ] ; then
+		kill -9 $SERVERPID
+		echo "========= stopping Server ========="
 
-	until
-	[ "$?" = "1" ]
-	do
-	  ps aux | grep -i "./Server" | grep -v grep >/dev/null 2>&1
-	done
-	echo " Server stoped completely !!!!!!"
+		until
+		[ "$?" = "1" ]
+		do
+		  ps aux | grep -i "./Server" | grep -v grep >/dev/null 2>&1
+		done
+		echo "====>>> Server stoped completely !!!!!!"
+	fi
 }
 
 login() {
 	###### stop Login ######
 	LOGINPID=`ps aux | grep "./Login" | grep -v grep | awk '{print $2}'`
-	kill -9 $LOGINPID
-	echo "========= Login is stopping ========="
+  if [ "$LOGINPID" != "" ] ; then
+		kill -9 $LOGINPID
+		echo "========= Login is stopping ========="
 
-	until
-	[ "$?" = "1" ]
-	do
-	  ps aux | grep -i "./Login" | grep -v grep >/dev/null 2>&1
-	done
-	echo " Login stoped completely !!!!!!"
+		until
+		[ "$?" = "1" ]
+		do
+		  ps aux | grep -i "./Login" | grep -v grep >/dev/null 2>&1
+		done
+		echo "====>>> Login stoped completely !!!!!!"
+	fi
 }
 
 world() {
 	###### stop World ######
 	WORLDPID=`ps aux | grep -i "./World" | grep -v grep | awk '{print $2}'`
-	kill -9 $WORLDPID
-	echo "========= World is stopping ========="
+  if [ "$WORLDPID" != "" ] ; then
+		kill -9 $WORLDPID
+		echo "========= World is stopping ========="
 
-	until
-	[ "$?" = "1" ]
-	do
-	  ps aux | grep -i "./World" | grep -v grep >/dev/null 2>&1
-	done
-	echo " World stoped completely !!!!!!"
+		until
+		[ "$?" = "1" ]
+		do
+		  ps aux | grep -i "./World" | grep -v grep >/dev/null 2>&1
+		done
+		echo "====>>> World stoped completely !!!!!!"
+	fi
 }
 
 shm() {
 	###### stop ShareMemory ######
-	echo "========= ShareMemroy is saving data ========="
+	SHMPID=`ps aux | grep -i "./ShareMemory" | grep -v grep | awk '{print $2}'`
+  if [ "$SHMPID" != "" ] ; then
+		kill -9 $SHMPID
+		echo "========= ShareMemroy is saving data ========="
 
-	until
-	[ "$?" = "1" ]
-	do
-	  ps aux | grep -i "./ShareMemory" | grep -v grep >/dev/null 2>&1
-	done
-	echo " ShareMemory stoped completely !!!!!!"
+		until
+		[ "$?" = "1" ]
+		do
+		  ps aux | grep -i "./ShareMemory" | grep -v grep >/dev/null 2>&1
+		done
+		echo "====>>> ShareMemory stoped completely !!!!!!"
+	fi
 }
 
 billing() {
@@ -64,10 +74,8 @@ billing() {
   if [ "$_running" != "" ] ; then
 		echo "========= Billing is stopping ========="
     kill -9 $_running
-    echo "Billing is stopped."
-    return 1
+    echo "====>>> Billing is stopped !!!!!!"
   fi
-  return 0
 }
 
 if [ $# != 1 ]
@@ -77,6 +85,7 @@ then
 	login
 	world
 	shm
+	echo "====>>> ALL ARE STOPPED <<<===="
 	exit 1
 fi
 
