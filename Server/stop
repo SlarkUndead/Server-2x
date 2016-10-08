@@ -7,9 +7,7 @@ userage()
 
 server() {
 	###### stop Server ######
-	cd /home/tlbb/Server
-
-	SERVERPID=`ps aux | grep "./Login" | grep -v grep | awk '{print $2}'`
+	SERVERPID=`ps aux | grep "./Server" | grep -v grep | awk '{print $2}'`
 	kill -9 $SERVERPID
 	echo "========= stopping Server ========="
 
@@ -23,8 +21,6 @@ server() {
 
 login() {
 	###### stop Login ######
-	cd /home/tlbb/Server
-
 	LOGINPID=`ps aux | grep "./Login" | grep -v grep | awk '{print $2}'`
 	kill -9 $LOGINPID
 	echo "========= Login is stopping ========="
@@ -39,7 +35,6 @@ login() {
 
 world() {
 	###### stop World ######
-	cd /home/tlbb/Server
 	WORLDPID=`ps aux | grep -i "./World" | grep -v grep | awk '{print $2}'`
 	kill -9 $WORLDPID
 	echo "========= World is stopping ========="
@@ -54,7 +49,6 @@ world() {
 
 shm() {
 	###### stop ShareMemory ######
-	cd /home/tlbb/Server/
 	echo "========= ShareMemroy is saving data ========="
 
 	until
