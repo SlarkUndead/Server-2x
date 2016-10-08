@@ -15,7 +15,7 @@ x002026_g_mpInfo[5]	= { "Nga My", 15,  89, 139, MP_EMEI }
 x002026_g_mpInfo[6]	= { "Vı –ang", 12, 103, 140, MP_WUDANG }
 x002026_g_mpInfo[7]	= { "Minh Gi·o", 11,  98, 167, MP_MINGJIAO }
 x002026_g_mpInfo[8]	= { "C·i Bang", 10,  91, 116, MP_GAIBANG }
-x002026_g_mpInfo[9]	= { "Mµ Dung", 535,  91, 116, MP_GAIBANG }
+x002026_g_mpInfo[9]	= { "Mµ Dung", 535,  29, 133, 10 }
 
 x002026_g_Yinpiao = 40002000
 
@@ -95,7 +95,7 @@ end
 -- ¬º˛¡–±Ì—°÷–mµt œÓ
 --**********************************
 function x002026_OnEventRequest( sceneId, selfId, targetId, eventId )
-	--∂”ŒÈœ‡πÿ
+	
 	if GetTeamId(sceneId,selfId)>=0 and 
 		IsTeamFollow(sceneId, selfId)==1 and
 		LuaFnIsTeamLeader(sceneId,selfId)==1 then
@@ -127,33 +127,14 @@ function x002026_OnEventRequest( sceneId, selfId, targetId, eventId )
 		end
 	end
 	
-	--À≥¿˚¥´ÀÕ
-	local	arg	= GetNumText()
-	local	mp
-	local	i		= 0
-	local	id	= LuaFnGetMenPai( sceneId, selfId )
-	if arg == 1000 then		--Tr∑ v´√≈≈…
-		if id < 0 or id >= 9 then
-			x002026_MsgBox( sceneId, selfId, targetId, "  C·c h’ chﬂa gia nhßp mÙn ph·i n‡o." )
-		else
-			mp	= x002026_GetMPInfo( id )
-			if mp ~= nil then
-				CallScriptFunction( (400900), "TransferFunc", sceneId, selfId, mp[2], mp[3], mp[4], 10 )
-			end
-		end
-		return
-	end
 	
-	--∑µªÿ√≈≈…....
 	local	arg	= GetNumText()
 	local	mp
 	local	i		= 0
 	local	id	= LuaFnGetMenPai( sceneId, selfId )
 	if arg == 1000 then		--∑µªÿ√≈≈…
-		if id < 0 or (id == 9 and LuaFnGetXinFaLevel(sceneId,selfId,64) <= 0) then --Add by SÛi
+		if id == 9 then
 			x002026_MsgBox( sceneId, selfId, targetId, "NgﬂΩi vÁn chﬂa gia nhßp mÙn ph·i." )
-		elseif id == 9 and LuaFnGetXinFaLevel(sceneId,selfId,64) > 0 then --Add by SÛi
-			CallScriptFunction((400900),"TransferFunc",sceneId,selfId,535,91,116)
 		else
 			mp	= x002026_GetMPInfo( id )
 			if mp ~= nil then
@@ -265,7 +246,7 @@ function x002026_OnEventRequest( sceneId, selfId, targetId, eventId )
 	end
 
 
-	if GetNumText() == 2000 then		--
+	if arg() == 2000 then		--
 		BeginEvent( sceneId )
 			AddText( sceneId, "#{GOTO_DUNHUANF_SONGSHAN}" ) 
 		EndEvent( sceneId )
