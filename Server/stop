@@ -8,7 +8,7 @@ userage()
 server() {
 	###### stop Server ######
 	SERVERPID=`ps aux | grep "./Server" | grep -v grep | awk '{print $2}'`
-  if [ "$LOGINPID" != "" ] ; then
+  if [ "$SERVERPID" != "" ] ; then
 		kill -9 $SERVERPID
 		echo "========= stopping Server ========="
 
